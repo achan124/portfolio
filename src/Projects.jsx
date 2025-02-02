@@ -27,7 +27,7 @@ export function Projects() {
     return (
     <>
         <h2 id="projects">Projects</h2>
-        <div className="projectCards">
+        <div className="d-flex flex-column flex-lg-row justify-content-lg-center align-items-center gap-4 projects">
             {projectInfo.map((project, index) => (
                 <ProjectCard key={index} project={project}/>
             ))}
@@ -38,19 +38,19 @@ export function Projects() {
 
 function ProjectCard({ project }) {
     return (
-        <div className="pjCard">
-            <div className="pjCardImg">
+        <div className="d-flex flex-column bg-white rounded-5 pjCard">
+            <div className="mx-auto pt-3">
                 <img src={project.img[0]} alt={project.img[1]} />
             </div>
-            <div className="pjCardInfo">
-                <div className="techStack">
+            <div className="p-4">
+                <div className="d-flex gap-1">
                     {project.techStack.map((tech, index) => (
-                        <p key={index}>{tech}</p>
+                        <p key={index} className="techStack">{tech}</p>
                     ))}
                 </div>
-                <h4>{project.dates}</h4>
+                <h4 className="pt-3">{project.dates}</h4>
                 <h3>{project.name}</h3>
-                <p className="pjDesc">{project.desc}</p>
+                <p>{project.desc}</p>
             </div>
         </div>
     )

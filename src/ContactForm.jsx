@@ -1,28 +1,28 @@
 export function ContactForm() {
     return (
-        <div className="contactForm" id="contact">
+        <div className="d-none d-lg-block m-auto rounded-5 contactForm" id="contact">
           <h2>Send me a Message!</h2>
           <form action="mail.php" method="POST">
-              <div className="formInputs">
-                  <div className="visitorContactInfo">
-                      <div className="name">
+              <div className="pb-5 formInputs">
+                  <div className="d-flex flex-grow-2 gap-5 mb-4">
+                      <div className="w-100">
                           <label htmlFor="nameInput">Name</label>
-                          <input type="text" id="nameInput" name="name" />
+                          <input type="text" id="nameInput" name="name" className="w-100 rounded-4 border-0 p-1"/>
                       </div>
-                      <div className="email">
+                      <div className="w-100">
                           <label htmlFor="emailInput">Email</label>
-                          <input type="email" id="emailInput" name="email" />
+                          <input type="email" id="emailInput" name="email" className="w-100 rounded-4 border-0 p-1"/>
                       </div>
                   </div>
 
                   <div>
                       <label htmlFor="subjectInput">Subject</label>
-                      <input type="text" id="subjectInput" name="subject" />
+                      <input type="text" id="subjectInput" name="subject" className="w-100 rounded-4 border-0 mb-4 p-1"/>
 
                       <label htmlFor="messageInput">Message</label>
-                      <textarea id="messageInput" name="message" rows="12"></textarea>
+                      <textarea id="messageInput" name="message" rows="8" className="w-100 rounded-4 border-0 mb-4"></textarea>
                   </div>
-                  <div className="submitForm">
+                  <div className="">
                       <button type="submit">Submit</button>
                   </div>
               </div>

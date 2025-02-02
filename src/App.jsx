@@ -7,16 +7,20 @@ import { ContactForm } from "./ContactForm.jsx"
 export default function App() {
   return (
     <>
-      <nav>
+      <nav className="d-flex justify-content-lg-between p-lg-3 pb-lg-0">
           <div>
-              <p className="logo">Alexia Chan</p>
+              <p className="fs-5 logo">Alexia Chan</p>
           </div>
-          <div className="hamburgerMenu">
+
+          {/* mobile nav */}
+          <div className="p-3 position-fixed top-0 end-0 z-3 d-lg-none hamburgerMenu">
               <span className="hamburger-line"></span>
               <span className="hamburger-line"></span>
               <span className="hamburger-line"></span>
           </div>
-          <div className="navLinks">
+
+          {/* desktop nav */}
+          <div className="d-lg-flex me-lg-4 gap-5 navLinks">
               <a href="#top">About</a>
               <a href="#projects">Projects</a>
               <a href="#experience">Experience</a>
@@ -34,7 +38,7 @@ export default function App() {
 
       <ContactForm />
 
-      <div className="links">
+      <div className="d-flex justify-content-center gap-3 links">
           <a href="https://github.com/achan124">GitHub</a>
           <a href="https://www.linkedin.com/in/alexiachan1">LinkedIn</a>
       </div>
