@@ -1,7 +1,7 @@
 export function ContactForm() {
     return (
-        <div className="d-none d-lg-block m-auto rounded-5 contactForm" id="contact">
-          <h2>Send me a Message!</h2>
+        <div className="d-none d-lg-block m-auto rounded-5 mb-5 contactForm" id="contact">
+          <h2 className="pt-5">Send me a Message!</h2>
           <form action="mail.php" method="POST">
               <div className="pb-5 formInputs">
                   <div className="d-flex flex-grow-2 gap-5 mb-4">
@@ -22,7 +22,7 @@ export function ContactForm() {
                       <label htmlFor="messageInput">Message</label>
                       <textarea id="messageInput" name="message" rows="8" className="w-100 rounded-4 border-0 mb-4"></textarea>
                   </div>
-                  <div className="">
+                  <div className="d-flex justify-content-end">
                       <button type="submit">Submit</button>
                   </div>
               </div>

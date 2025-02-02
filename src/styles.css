@@ -17,6 +17,9 @@ img {
     width: 300px;
 }
 
+.about {
+    padding: 16px;
+}
 
 /* navbar */
 nav {
@@ -97,22 +100,6 @@ button, .checkOutWork {
     height: 50px;
 }
 
-/* 
-
-
-@media (width < 1200px) {
-    .me-info {
-        margin-top: 50px;
-        padding: 0px 50px;
-    }
-    
-    .me-pic {
-        margin-right: 50px;
-        margin-top: 50px;
-    }
-}
-*/
-
 
 /* projects and experience */
 .pjCard, .exCard {
@@ -139,12 +126,9 @@ ul {
 
 
 /* contact */
-
 .contactForm {
     background-color: #DADADA;
     width: 1000px;
-    /* margin-top: 175px;
-    margin-bottom: 50px; */
 }
 
 .contactForm h2 {
@@ -163,6 +147,7 @@ input, textarea {
 input:focus, textarea:focus {
     outline: 1px solid #8b8b8b;
 }
+
 
 /* media breakpoints */
 @media (min-width: 490px) {
@@ -185,8 +170,22 @@ input:focus, textarea:focus {
     }
 
     .about {
-        margin: 0px 150px;
-        padding-top: 150px;
+        margin: 0px 100px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        gap: 100px
+    }
+
+    .about img {
+        width: 400px;
+    } 
+
+    .experience {
+        padding-bottom: 200px;
+    }
+
+    h2 {
+        padding-top: 100px;
     }
 
     .projects, .experience {
@@ -203,16 +202,10 @@ input:focus, textarea:focus {
         font-size: 70px;
     }
 
-    /* .about {
-        margin: 200px 200px 250px 200px;
-        gap: 100px;
+    .about {
+        margin: 0px 175px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        gap: 100px
     }
-
-    .about button {
-        margin-top: 50px;
-    }
-
-    .about img {
-        width: 400px;
-    } */
 } 

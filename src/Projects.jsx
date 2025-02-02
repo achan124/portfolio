@@ -27,7 +27,7 @@ export function Projects() {
     return (
     <>
         <h2 id="projects">Projects</h2>
-        <div className="d-flex flex-column flex-lg-row justify-content-lg-center align-items-center gap-4 projects">
+        <div className="d-flex flex-column flex-lg-row flex-lg-wrap justify-content-lg-center align-items-center gap-4 projects">
             {projectInfo.map((project, index) => (
                 <ProjectCard key={index} project={project}/>
             ))}
