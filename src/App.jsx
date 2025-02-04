@@ -24,7 +24,7 @@ export default function App() {
               <a href="#top">About</a>
               <a href="#projects">Projects</a>
               <a href="#experience">Experience</a>
-              <a href="#contact">Contact</a>
+              {/* <a href="#contact">Contact</a> */}
               {/* <button onClick="window.open('/files/RESUME.pdf')">Resume</button> */}
               <button onClick={() => window.open("/files/RESUME.pdf", "_blank")}>Resume</button>
           </div>
@@ -36,7 +36,7 @@ export default function App() {
       
       <Experience />
 
-      <ContactForm />
+      {/* <ContactForm /> */}
 
       <div className="d-flex justify-content-center gap-3 links">
           <a href="https://github.com/achan124">GitHub</a>
