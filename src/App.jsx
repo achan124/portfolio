@@ -6,9 +6,9 @@ import { Experience } from "./Experience.jsx"
 export default function App() {
   return (
     <>
-      <div className="d-md-flex w-75 m-auto pt-5 mt-5">
+      <div className="d-lg-flex w-75 m-auto pt-5 mt-5">
 
-        <div className="position-fixed">
+        <div className="sidebar">
           <p>Hi, my name is</p>
           <h1 className="mb-5">Alexia Chan</h1>
 
@@ -38,7 +38,7 @@ export default function App() {
 
         </div>
 
-        <div className="mt-5 ms-auto w-50">
+        <div className="content">
           <p className="about">I’m an undergraduate Informatics student at the University of Washington, specialising in front-end development with an interest in user experience design. Based in Seattle WA, I’m passionate about turning ideas into functional, visually appealing interfaces.</p>
 
           <Projects />

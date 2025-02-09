@@ -56,7 +56,7 @@ function ExperienceCard({ experience }) {
             <div >
                 <h4 className="role">{experience.role}</h4>
             </div>
-            <div className="d-flex justify-content-between">
+            <div className="d-xxl-flex justify-content-between">
                 <h3>{experience.company}</h3>
                 <p>{experience.dates}</p>
             </div>
