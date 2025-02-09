@@ -31,37 +31,42 @@ export function Projects() {
     ]
 
     return (
-    <>
-        <h2 id="projects">Projects</h2>
-        <div className="d-flex flex-column flex-lg-row flex-lg-wrap justify-content-lg-center align-items-center gap-4 projects">
-            {projectInfo.map((project, index) => (
-                <ProjectCard key={index} project={project}/>
-            ))}
-        </div>
-    </>
+        <>
+            <h2 id="projects" className="mt-5">Projects</h2>
+            <div className="mb-5 pb-5">
+                {projectInfo.map((project, index) => (
+                    <ProjectCard key={index} project={project}/>
+                ))}
+            </div>
+        </>
     )
 }
 
 function ProjectCard({ project }) {
     return (
-        <div className="d-flex flex-column bg-white rounded-5 pjCard">
-            <div className="mx-auto pt-3">
+        <div className="mt-4 p-4 projectCard">
+
+            <div className="d-flex gap-3 justify-content-between">
+              <div>
+                <h4>{project.dates}</h4>
+                <h3>{project.name}</h3>
+                <p>{project.desc}</p>
+              </div>
+
+              <div className="">
                 <img src={project.img[0]} alt={project.img[1]} />
+              </div>
             </div>
-            <div className="p-4 d-flex flex-column flex-grow-1">
-                <div className="d-flex gap-1">
+
+            <div className="d-flex justify-content-between mt-3">
+                <div className="d-flex gap-3">
                     {project.techStack.map((tech, index) => (
                         <p key={index} className="techStack">{tech}</p>
                     ))}
                 </div>
-                <h4 className="pt-3">{project.dates}</h4>
-                <h3>{project.name}</h3>
-                <p className="flex-grow-1">{project.desc}</p>
-                <div className="d-flex justify-content-center">
-                    <a href={project.link} target="_blank" className="projLink">{project.linkText}</a>
-                </div>
+                <a href={project.link} target="_blank">link</a>
             </div>
+
         </div>
     )
-
 }

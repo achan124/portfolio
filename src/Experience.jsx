@@ -40,11 +40,12 @@ export function Experience() {
 
     return (
         <>
-            <h2 id="experience">Experience</h2>
-            <div className="d-flex flex-column align-items-center gap-4 mb-5 experience">
+            <h2 id="experience" className="mt-5">Experience</h2>
+            <div className="mb-5 pb-5">
                 {experienceInfo.map((experience, index) => (
                     <ExperienceCard key={index} experience={experience}/>
                 ))}
+                <a href='/files/RESUME.pdf' target="_blank">See full resume</a>
             </div>
         </>
     )
@@ -52,12 +53,11 @@ export function Experience() {
 
 function ExperienceCard({ experience }) {
     return (
-        <div className="d-flex flex-column bg-white rounded-5 p-4 exCard">
-            <div className="pt-3 d-lg-flex justify-content-lg-between">
+        <div className="mt-4 p-4 projectCard">
+            <div >
                 <h4>{experience.role}</h4>
-                <p>{experience.location}</p>
             </div>
-            <div className="d-lg-flex justify-content-lg-between">
+            <div className="d-flex justify-content-between">
                 <h3>{experience.company}</h3>
                 <p>{experience.dates}</p>
             </div>
