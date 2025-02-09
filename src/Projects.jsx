@@ -32,11 +32,14 @@ export function Projects() {
 
     return (
         <>
-            <h2 id="projects" className="mt-5">Projects</h2>
+            <h2 id="projects" className="mt-5 pt-5">Projects</h2>
             <div className="mb-5 pb-5">
                 {projectInfo.map((project, index) => (
                     <ProjectCard key={index} project={project}/>
                 ))}
+                <div className="d-flex justify-content-end mt-3">
+                    <a href='#' target="_blank">See all projects</a>
+                </div>
             </div>
         </>
     )
@@ -64,7 +67,12 @@ function ProjectCard({ project }) {
                         <p key={index} className="techStack">{tech}</p>
                     ))}
                 </div>
-                <a href={project.link} target="_blank">link</a>
+                <a href={project.link} target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00DAC6" className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                        <path fillRule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                        <path fillRule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                    </svg>
+                </a>
             </div>
 
         </div>
