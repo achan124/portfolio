@@ -18,9 +18,9 @@ h4, .techStack {font-size: 14px;}
 
 ul {list-style: decimal-leading-zero inside none;}
 
-a {color: #00DAC6;}
+a, li, p {color: #ffffff79;}
 
-.role {color: #DB3F76;}
+.role {color: #74a9ff;}
 
 img {width: 250px;}
 
@@ -29,20 +29,39 @@ li, a {
     margin-bottom: 16px;
 }
 
+/* TechStack Styling */
 .techStack {
-    color: #BB86Fc;
-    border: 1px solid #BB86Fc;
     border-radius: 20px;
     padding: 2px 7px;
 }
 
-/* .socials {
-    background: linear-gradient(135deg, #1e1e24 10%, #050505 60%);
-    width: 75px;
-    height: 50px;
-    border-radius: 15px;
-} */
+.html {
+    color: hsla(19, 100%, 63%, 0.708);
+    border: 1px solid hsla(19, 100%, 63%, 0.708);
+}
 
+.css {
+    color: #ffcb3bb9;
+    border: 1px solid #ffcb3bb9;
+}
+
+.javascript {
+    color: #ff64a7be;
+    border: 1px solid #ff64a7be;
+}
+
+.react {
+    color: #74a9ffaf;
+    border: 1px solid #74a9ffaf;
+}
+
+.figma {
+    color: #b280f8c1;
+    border: 1px solid #b280f8c1;
+}
+
+
+/* Card Animation */
 .projectCard, .experienceCard {
     /* border-radius: 15px;
     background: #212121;
@@ -53,19 +72,14 @@ li, a {
     background-color: #1f1f1f;
     color: #fff;
     cursor: pointer;
-    box-shadow: 2px 2px 3px #000000b4;
 }
 
 .cardContainer {
     position: relative;
     padding: 3px 3px;
-    background: linear-gradient(90deg, #03a9f4, #f441a5);
+    background: #2b2b2b;
     border-radius: 0.6em;
     transition: all 0.4s ease;
-}
-
-.exCardContainer {
-    background: linear-gradient(90deg, #f441a5, #03a9f4);
 }
 
 .cardContainer::before {
@@ -80,21 +94,59 @@ li, a {
 }
   
 .cardContainer:hover::before {
-background: linear-gradient(90deg, #03a9f4, #f441a5);
+background: #8b8b8b;
 filter: blur(0.5em);
 }
 
-.exCardContainer:hover::before {
-background: linear-gradient(90deg, #f441a5, #03a9f4);
-}
-
-.cardContainer:active::before {
+/* .cardContainer:active::before {
 filter: blur(0.2em);
+} */
+
+
+/* Nav Animation */
+.hvr-float-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
 }
 
-.animate:hover {
-    animation: rubberBand; 
-    animation-duration: 1s; 
+.hvr-float-shadow:before {
+pointer-events: none;
+position: absolute;
+z-index: -1;
+content: '';
+top: 50%;
+left: 5%;
+height: 10px;
+width: 100%;
+opacity: 0;
+background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+/* W3C */
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-property: transform, opacity;
+transition-property: transform, opacity;
+}
+
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+-webkit-transform: translateY(-5px);
+transform: translateY(-5px);
+/* move the element up by 5px */
+}
+
+.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+opacity: 1;
+-webkit-transform: translateY(5px);
+transform: translateY(5px);
+/* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 
 

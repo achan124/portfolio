@@ -53,7 +53,7 @@ export function Experience() {
 function ExperienceCard({ experience }) {
     return (
         <div className="mt-4">
-            <div className="exCardContainer cardContainer">
+            <div className="cardContainer">
                 <div className="p-4 experienceCard">
                     <div >
                         <h4 className="role">{experience.role}</h4>
@@ -72,3 +72,4 @@ function ExperienceCard({ experience }) {
         </div>
     )
 }
+

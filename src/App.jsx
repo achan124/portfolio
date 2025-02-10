@@ -11,13 +11,13 @@ export default function App() {
       <div className="d-lg-flex w-75 m-auto pt-5 mt-5">
         <div className="sidebar">
           <p>Hi, my name is</p>
-          <h1 className="animate mb-5">Alexia Chan</h1>
+          <h1 className="mb-5">Alexia Chan</h1>
           <nav className="d-none d-lg-block navBar">
             <ul>
-              <li><a href="#top">About</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#experience">Experience</a></li>
-              <li><a href="#contact">Contact</a></li>         
+              <span className="hvr-float-shadow"><li><a href="#top">About</a></li></span><br/>
+              <span className="hvr-float-shadow"><li><a href="#projects">Projects</a></li></span><br/>
+              <span className="hvr-float-shadow"><li><a href="#experience">Experience</a></li></span><br/>
+              <span className="hvr-float-shadow"><li><a href="#contact">Contact</a></li></span><br/>     
             </ul>
           </nav>
 
