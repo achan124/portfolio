@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     font-size: 16px;
@@ -5,7 +6,7 @@
     color: rgb(213, 222, 211);
 }
 
-body {background-color: #292929;}
+body {background-color: #212121;}
 
 h1 {font-size: 50px;}
 
@@ -28,22 +29,75 @@ li, a {
     margin-bottom: 16px;
 }
 
-.projectCard, .experienceCard {
-    border: 2px solid #5f5f5f38;
-    border-radius: 15px;
-    transition: box-shadow 0.3s ease;
-}
-
-.projectCard:hover {
-    box-shadow: 2px 2px 2px 2px #5f5f5f38;
-}
-
 .techStack {
     color: #BB86Fc;
     border: 1px solid #BB86Fc;
     border-radius: 20px;
     padding: 2px 7px;
 }
+
+/* .socials {
+    background: linear-gradient(135deg, #1e1e24 10%, #050505 60%);
+    width: 75px;
+    height: 50px;
+    border-radius: 15px;
+} */
+
+.projectCard, .experienceCard {
+    /* border-radius: 15px;
+    background: #212121;
+    box-shadow: 10px 10px 50px rgb(25, 25, 25),
+               -10px -10px 50px rgb(60, 60, 60); */
+    border-radius: 0.5em;
+    border: none;
+    background-color: #1f1f1f;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px #000000b4;
+}
+
+.cardContainer {
+    position: relative;
+    padding: 3px 3px;
+    background: linear-gradient(90deg, #03a9f4, #f441a5);
+    border-radius: 0.6em;
+    transition: all 0.4s ease;
+}
+
+.exCardContainer {
+    background: linear-gradient(90deg, #f441a5, #03a9f4);
+}
+
+.cardContainer::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border-radius: 0.9em;
+    z-index: -10;
+    filter: blur(0);
+    transition: filter 0.2s ease;
+}
+  
+.cardContainer:hover::before {
+background: linear-gradient(90deg, #03a9f4, #f441a5);
+filter: blur(0.5em);
+}
+
+.exCardContainer:hover::before {
+background: linear-gradient(90deg, #f441a5, #03a9f4);
+}
+
+.cardContainer:active::before {
+filter: blur(0.2em);
+}
+
+.animate:hover {
+    animation: rubberBand; 
+    animation-duration: 1s; 
+}
+
+
 
 @media (min-width: 992px) {
     .content {

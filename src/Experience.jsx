@@ -43,7 +43,7 @@ export function Experience() {
                     <ExperienceCard key={index} experience={experience}/>
                 ))}
                 <div className="d-flex justify-content-end mt-3">
-                    <a href='/files/RESUME.pdf' target="_blank">See full resume</a>
+                    <a href='/files/RESUME.pdf' target="_blank">full resume</a>
                 </div>
             </div>
         </>
@@ -52,18 +52,22 @@ export function Experience() {
 
 function ExperienceCard({ experience }) {
     return (
-        <div className="mt-4 p-4 experienceCard">
-            <div >
-                <h4 className="role">{experience.role}</h4>
-            </div>
-            <div className="d-xxl-flex justify-content-between">
-                <h3>{experience.company}</h3>
-                <p>{experience.dates}</p>
-            </div>
-            <div className="pt-3">
-                {experience.desc.map((info, index) => (
-                    <p key={index}>{info}</p>
-                ))}
+        <div className="mt-4">
+            <div className="exCardContainer cardContainer">
+                <div className="p-4 experienceCard">
+                    <div >
+                        <h4 className="role">{experience.role}</h4>
+                    </div>
+                    <div className="d-xxl-flex justify-content-between">
+                        <h3>{experience.company}</h3>
+                        <p>{experience.dates}</p>
+                    </div>
+                    <div className="pt-3">
+                        {experience.desc.map((info, index) => (
+                            <p key={index}>{info}</p>
+                        ))}
+                    </div>
+                </div>
             </div>
         </div>
     )

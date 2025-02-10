@@ -2,16 +2,16 @@ import "./styles.css"
 import { Projects } from "./Projects.jsx" 
 import { Experience } from "./Experience.jsx"
 // import { ContactForm } from "./ContactForm.jsx"
+// import { Particles } from "./ParticlesEffect";
 
 export default function App() {
   return (
     <>
-      <div className="d-lg-flex w-75 m-auto pt-5 mt-5">
 
+      <div className="d-lg-flex w-75 m-auto pt-5 mt-5">
         <div className="sidebar">
           <p>Hi, my name is</p>
-          <h1 className="mb-5">Alexia Chan</h1>
-
+          <h1 className="animate mb-5">Alexia Chan</h1>
           <nav className="d-none d-lg-block navBar">
             <ul>
               <li><a href="#top">About</a></li>
@@ -42,7 +42,7 @@ export default function App() {
           <p className="about">I’m an undergraduate Informatics student at the University of Washington, specialising in front-end development with an interest in user experience design. Based in Seattle WA, I’m passionate about turning ideas into functional, visually appealing interfaces.</p>
 
           <Projects />
-          <Experience />
+          <Experience />      
 
         </div>
 
