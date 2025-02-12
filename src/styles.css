@@ -20,7 +20,7 @@ ul {list-style: decimal-leading-zero inside none;}
 
 a, li, p {color: #ffffff79;}
 
-.role {color: #74a9ff;}
+.role {color: #92a0a1;}
 
 img {width: 250px;}
 
@@ -36,28 +36,28 @@ li, a {
 }
 
 .html {
-    color: hsla(19, 100%, 63%, 0.708);
-    border: 1px solid hsla(19, 100%, 63%, 0.708);
+    color: #f60064;
+    border: 1px solid #f60064;
 }
 
 .css {
-    color: #ffcb3bb9;
-    border: 1px solid #ffcb3bb9;
+    color: #FFB200;
+    border: 1px solid #FFB200;
 }
 
 .javascript {
-    color: #ff64a7be;
-    border: 1px solid #ff64a7be;
+    color: #c295fb;
+    border: 1px solid #c295fb;
 }
 
 .react {
-    color: #74a9ffaf;
-    border: 1px solid #74a9ffaf;
+    color: #1cdfca;
+    border: 1px solid #1cdfca;
 }
 
 .figma {
-    color: #b280f8c1;
-    border: 1px solid #b280f8c1;
+    color: #0D92F4;
+    border: 1px solid #0D92F4;
 }
 
 
