@@ -11,7 +11,7 @@ export const projectData = [
     },
     {
         name: "MBTI Personality Test", 
-        img: ["#", "mbti interface"], 
+        img: ["/img/mbti.png", "mbti interface"], 
         techStack: ["HTML", "CSS", "React.js"],
         dates: "Feb 2024",
         desc: "Recreation of the MBTI test",
@@ -48,7 +48,7 @@ export function ProjectCardContent({project}) {
             <div>
                 <h4>{project.dates}</h4>
                 <h3>{project.name}</h3>
-                <p>{project.desc}</p>
+                <p className="mt-3 desc">{project.desc}</p>
             </div>
 
             <div className="">
