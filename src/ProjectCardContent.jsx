@@ -48,7 +48,7 @@ export function ProjectCardContent({project}) {
             <div>
                 <h4>{project.dates}</h4>
                 <h3>{project.name}</h3>
-                <p className="mt-3 desc">{project.desc}</p>
+                <p className="mt-3">{project.desc}</p>
             </div>
 
             <div className="">

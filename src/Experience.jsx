@@ -64,7 +64,7 @@ function ExperienceCard({ experience }) {
                     </div>
                     <div className="pt-3">
                         {experience.desc.map((info, index) => (
-                            <p key={index} className="desc">{info}</p>
+                            <p key={index}>{info}</p>
                         ))}
                     </div>
                 </div>
