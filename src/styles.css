@@ -60,7 +60,6 @@ li, a {
     border: 1px solid #0D92F4;
 }
 
-
 /* Card Animation */
 .projectCard, .experienceCard {
     /* border-radius: 15px;
@@ -96,6 +95,11 @@ li, a {
 .cardContainer:hover::before {
 background: #8b8b8b;
 filter: blur(0.5em);
+}
+
+.ppage {
+    width: 1000px;
+    border: 1px solid #353535;
 }
 
 /* .cardContainer:active::before {
