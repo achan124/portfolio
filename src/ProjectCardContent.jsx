@@ -25,7 +25,7 @@ export const projectData = [
         techStack: ["HTML", "CSS", "JavaScript", "React.js"],
         dates: "Sep 2024 - Dec 2024",
         desc: "Platform for Smiski collectors to keep track of and organize their figurines",
-        link: "https://github.com/achan124/smiski-grove",
+        link: "https://smiski-grove.web.app",
         isLinkReady: true,
         isKeyProject: true
     },
@@ -35,7 +35,7 @@ export const projectData = [
         techStack: ["Figma"],
         dates: "Jun 2023 - Aug 2023",
         desc: "Redesign of the National Park Service website",
-        link: "https://www.figma.com/proto/7VlnJ5hHSkksXOLBohpSRu/UXplorers-Team-Projects?node-id=821-4172&starting-point-node-id=821%3A4172",
+        link: "https://www.figma.com/design/lWi8cAyRF5wNMBWhfJa9NA/National-Park-Service-Redesign?node-id=1-286&t=ImUpkzgLnNlxtZ1D-1",
         isLinkReady: true,
         isKeyProject: true
     }
