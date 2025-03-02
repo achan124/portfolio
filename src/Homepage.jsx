@@ -1,5 +1,6 @@
 import { ProjectSection } from "./ProjectSection.jsx" 
 import { Experience } from "./Experience.jsx"
+import { ContactForm } from "./ContactForm.jsx"
 
 export function Homepage() {
     return (
@@ -13,6 +14,7 @@ export function Homepage() {
                     <span className="hvr-float-shadow"><li><a href="#top">About</a></li></span><br/>
                     <span className="hvr-float-shadow"><li><a href="#projects">Projects</a></li></span><br/>
                     <span className="hvr-float-shadow"><li><a href="#experience">Experience</a></li></span><br/>   
+                    <span className="hvr-float-shadow"><li><a href="#contact">Contact</a></li></span><br/> 
                     </ul>
                 </nav>
 
@@ -37,7 +39,8 @@ export function Homepage() {
                 <p className="about">I’m an undergraduate Informatics student at the University of Washington, specialising in front-end development with an interest in user experience design. Based in Seattle WA, I’m passionate about turning ideas into functional, visually appealing interfaces.</p>
 
                 <ProjectSection />
-                <Experience />      
+                <Experience />    
+                <ContactForm />  
             </div>
 
         </div>
