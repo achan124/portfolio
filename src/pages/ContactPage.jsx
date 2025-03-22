@@ -1,4 +1,5 @@
 import { Navbar } from "../components/Navbar";
+import { Footer } from "../components/Footer";
 
 export function ContactPage() {
     return (
@@ -7,6 +8,7 @@ export function ContactPage() {
             <div className="contentBody">
                
             </div>
+            <Footer />
         </div>
     )
 }

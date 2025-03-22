@@ -1,53 +1,71 @@
 
+/* !! general styling !! */
 * {
     box-sizing: border-box;
     font-size: 16px;
-    /* font-family: 'Roboto Mono', serif; */
     color: #103662;
 }
 
 body {background-color: #EDF6FC;}
 
-.contentBody {margin-left: 200px; margin-right: 200px; min-height: 80vh;}
+ul {list-style: none;}
 
-.navbar {background-color: #103662;}
-
-ul {
-    list-style: none; 
-    margin-top: 12px;
+.contentBody {
+    margin-top: 50px;
+    margin-left: 10%; 
+    margin-right: 10%; 
+    min-height: 100vh;
 }
 
-.navbar a {
+/* !! navbar & footer !! */
+.navbar {
+    background-color: #103662;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    min-height: 30px;
+}
+.hamburger-line {
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 5px;
+    background-color: white;
+}
+.hamburger-menu {
+    display: none;
+    background-color: #103662;
+    position: fixed;
+    margin-top: 42px;
+}
+.hamburger-links a {
     text-decoration: none;
-    color: white; 
-    font-size: 18px;
-    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
 }
-
+.reg-nav {
+    display: none;
+}
 .footer {
     background-color: #103662;
-    /* height: 50px; */
 }
 
+
+/* !! homepage !! */
 h1 {
-    font-size: 80px; 
+    font-size: 55px; 
     font-family: "Rubik Mono One";
-    margin-top: 150px;
+    margin-top: 100px;
 }
-
 .homepageRole {
     color: #3486E3;
-    font-size: 50px;
-    margin-top: -20px;
-    margin-left: 400px;
+    font-size: 30px;
 }
-
 .homepageAbout {
     font-size: 20px;
-    width: 700px;
     margin-top: 50px;
 }
-
 button {
     font-family: "Rubik Mono One";
     color: white;
@@ -55,8 +73,50 @@ button {
     border: 3px solid #103662;
     border-radius: 15px;
     padding: 15px 30px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
+
+
+/* !! media queries !! */
+@media (min-width: 992px) {
+    h1 {
+        font-size: 80px; 
+        margin-top: 150px;
+    }
+    .homepageRole {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .homepageAbout {
+        width: 700px;
+    }
+    .ham-nav {
+        display: none;
+    }
+    .reg-nav {
+        display: flex;
+        margin-top: 12px;
+    }
+    .reg-nav a {
+        text-decoration: none;
+        color: white; 
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 1400px) {
+    .homepageRole {
+        margin-left: 400px;
+    }
+}
+
+
+
+
+
 
 /* h3 {font-size: 24px;}
 
@@ -92,7 +152,7 @@ li, a {
 
 input:focus, textarea:focus  {
     outline: 2px solid #FF2200; */
-}
+
 
 /* TechStack Styling */
 /* .techStack {

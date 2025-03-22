@@ -1,4 +1,5 @@
 import { Navbar } from "../components/Navbar";
+import { Footer } from "../components/Footer";
 
 export function AboutPage() {
     return (
@@ -7,6 +8,7 @@ export function AboutPage() {
             <div className="contentBody">
                
             </div>
+            <Footer />
         </div>
     )
 }
