@@ -76,7 +76,15 @@ button {
     margin-top: 50px;
 }
 
+.imgBox img {
+    width: 100%;
+    height: auto;
+}
 
+.imgBox {
+    max-width: 600px;
+    min-width: 330px;
+}
 /* !! media queries !! */
 @media (min-width: 992px) {
     h1 {
@@ -105,6 +113,11 @@ button {
         font-size: 18px;
         font-weight: bold;
     }
+    .homepageProjects{
+        flex-direction: row;
+        padding-top: 200px;
+    }
+
 }
 
 @media (min-width: 1400px) {
