@@ -32,7 +32,7 @@ export function Carousel() {
         <div className="carousel-container">
             <Swiper
                 modules={[Navigation]} 
-                spaceBetween={10}
+                spaceBetween={25}
                 slidesPerView={1} 
                 navigation={{
                     nextEl: ".custom-next", 
@@ -43,26 +43,48 @@ export function Carousel() {
                 breakpoints={{
                     768: {slidesPerView: 2},
                     992: {slidesPerView: 3},
+                    1200: {slidesPerView: 5},
                 }}
             >
 
                 <SwiperSlide>
-                    <img src=".././public/img/food/madeinhouse.JPG" alt="First slide" className="carousel-image" />
+                    <img src=".././img/food/onibaba.JPG" alt="onibaba" className="carousel-image" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src=".././public/img/food/half-shell.JPG" alt="Fourth slide" className="carousel-image" />
+                    <img src=".././img/food/chirashi.JPG" alt="chirashi" className="carousel-image" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src=".././public/img/food/tendon-kohaku.JPG" alt="Second slide" className="carousel-image" />
+                    <img src=".././img/food/tendonkohaku.JPG" alt="tendon kohaku" className="carousel-image" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src=".././public/img/food/mcozy.JPG" alt="Third slide" className="carousel-image" />
+                    <img src=".././img/food/half-shell.JPG" alt="half shell" className="carousel-image" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src=".././public/img/food/flour-box.JPG" alt="Fourth slide" className="carousel-image" />
+                    <img src=".././img/food/charcuterie.JPG" alt="charcuterie" className="carousel-image" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src=".././public/img/food/kizuki.JPG" alt="Fourth slide" className="carousel-image" />
+                    <img src=".././img/food/mcozy.JPG" alt="mCozy" className="carousel-image" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src=".././img/food/eggsbennie.JPG" alt="eggs benedict" className="carousel-image" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src=".././img/food/flourbox.JPG" alt="flour box" className="carousel-image" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src=".././img/food/semicolon.JPG" alt="semicolon" className="carousel-image" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src=".././img/food/ramen.JPG" alt="ramen" className="carousel-image" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src=".././img/food/leon.JPG" alt="leon cafe" className="carousel-image" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src=".././img/food/secretcongee.JPG" alt="secret congee" className="carousel-image" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src=".././img/food/madeinhouse.JPG" alt="made in house" className="carousel-image" />
                 </SwiperSlide>
             </Swiper>
 

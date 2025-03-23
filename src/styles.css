@@ -126,18 +126,19 @@ h1 {
     margin: 0 auto;
     padding: 50px 60px;
     position: relative;
+    height: 350px;
 }
 .swiper-slide {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-self: center; 
+    height: 100%;
 }
-
 .carousel-image {
     width: 100%; 
     max-width: 200px;
     height: auto;
-    display: block; /* Ensure the image behaves as a block element */
+    display: block;
     margin: 0 auto;
 }
 .custom-prev, .custom-next {

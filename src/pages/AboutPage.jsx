@@ -35,7 +35,20 @@ export function AboutPage() {
                     </div>
                 </div>
 
-                <Carousel />
+                <div className="m-xl-5 px-xl-5 pb-5">
+                    <h3 className="mb-4">What does your logo mean?</h3>
+                    <p>blah blah blah blah blah blah blah blah blah blah blah blah blah blah balh blah blah blha
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah balh blah blah blha
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah balh blah blah blha
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah balh blah blah blha
+                    </p>
+                </div>
+
+                <div className="my-5">
+                    <h3 className="text-center mb-3">Recent eats I would reccomend</h3>
+                    <p className="text-center">Yes, I take pictures of all my food</p>
+                    <Carousel />
+                </div>
 
 
             </div>
