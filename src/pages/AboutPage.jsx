@@ -6,7 +6,7 @@ export function AboutPage() {
         <div>
             <Navbar />
             <div className="contentBody">
-               
+                <h1 style={{fontSize: 50}} className="text-center">About me</h1>
             </div>
             <Footer />
         </div>

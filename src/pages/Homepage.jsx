@@ -13,12 +13,23 @@ export function Homepage() {
                 <a href="#projects" className="checkout-link">Check out my work!</a>
 
                 <div id="projects" className="d-flex flex-wrap justify-content-center gap-5 m-5 homepageProjects">
-                    <div className="imgBox">
-                        <img src=".././public/img/dawgRide.png"/>
-                    </div>
-                    <div className="imgBox">
-                        <img src=".././public/img/smiskiGrove.png"/>
-                    </div>
+                    <a href="#" className="imgBox">
+                        <div>
+                            <img src=".././public/img/dawgRide.png" alt="DawgRide project mockup"/>
+                            <div className="overlay">
+                                <span>DawgRide</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" className="imgBox">
+                        <div>
+                            <img src=".././public/img/smiskiGrove.png" alt="Smiski Grove project mockup"/>
+                            <div className="overlay">
+                                <span>Smiski Grove</span>
+                            </div>
+                        </div>
+                    </a>
                 </div>
 
                 <ContactForm />

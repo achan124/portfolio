@@ -6,7 +6,28 @@ export function ProjectPage() {
         <div>
             <Navbar />
             <div className="contentBody">
-               
+                <h1 style={{fontSize: 50}} className="text-center">My Projects</h1>
+
+                <div className="d-flex flex-wrap justify-content-center gap-5 m-5 pt-5">
+                    <a href="#" className="imgBox">
+                        <div>
+                            <img src=".././public/img/dawgRide.png" alt="DawgRide project mockup"/>
+                            <div className="overlay">
+                                <span>DawgRide</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" className="imgBox">
+                        <div>
+                            <img src=".././public/img/smiskiGrove.png" alt="Smiski Grove project mockup"/>
+                            <div className="overlay">
+                                <span>Smiski Grove</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
             </div>
             <Footer />
         </div>
