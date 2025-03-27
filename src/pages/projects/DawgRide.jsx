@@ -1,22 +1,22 @@
-import "./dawgride.css";
+import "./project.css";
 
 import { Navbar } from "../../components/Navbar"
 import { Footer } from "../../components/Footer";
 
 export function DawgRide() {
     return (
-        <div style={{backgroundColor: "white"}} className="dawgRide">
+        <div style={{backgroundColor: "white"}} className="dawgRide project">
             <Navbar />
-            <h1>DawgRide</h1>
+            <h1 className="text-center" style={{color: "#1A0A3A"}}>DawgRide</h1>
             <div style={{backgroundColor: "#D8D4E0"}} className="d-flex justify-content-center">
-                <img src="../../public/img/dawgride/dawgRidePurple.png" className="dawgrideimg"></img>
+                <img src="../../public/img/dawgride/dawgRidePurple.png" className="header-image"></img>
             </div>
 
             <div className="content-container">
-                <div className="tech-stack">
-                    <p>React Native</p>
+                <div>
+                    <p className="tech-stack">React Native</p>
                 </div>
-                <p>Jan 2024 - Mar 2024</p>
+                <p><strong>Jan 2025 - Mar 2025</strong></p>
                 <p>DawgRide is a mobile app that enhances the safety and convenience of late-night commutes for the UW 
                     community by building on existing Husky NightRide and SafeTrip services.</p>
 
@@ -131,7 +131,7 @@ export function DawgRide() {
                         <li><strong>Safety Map:</strong> Allows users to report and review suspicious activity on campus.</li>
                         <li><strong>Info/FAQ Section:</strong> Educates users on Husky NightRide, SafeTrip, and DawgRide usage.</li>
                     </ul>
-                    <a href="https://github.com/achan124/dawgRide" target="_blank"><h4 className="mt-5 pt-5">View on GitHub</h4></a>
+                    <button href="https://github.com/achan124/dawgRide" target="_blank" className="mt-5 project-button">GitHub</button>
                 </div>
             </div>
             <Footer />

@@ -1,4 +1,4 @@
-.dawgRide * {
+.project * {
     color: black;
 }
 
@@ -9,11 +9,6 @@
 .content-group {
     margin-top: 200px;
     margin-bottom: 100px;
-}
-
-.dawgRide h1 {
-    color: #1A0A3A;
-    text-align: center;
 }
 
 .dawgRide h2 {
@@ -33,7 +28,7 @@
     font-size: 30px;
 }
 
-.dawgRide p {
+.project p {
     font-size: 20px;
 }
 
@@ -41,28 +36,30 @@
     list-style: disc;
 }
 
-.dawgRide li, .dawgRide strong {
+.dawgRide li, .project strong {
     font-size: 20px;
 }
 
-.dawgrideimg {
+.header-image {
     width: 60vw; 
     min-width: 375px; 
     max-width: 1000px;
 }
 
 .tech-stack {
+    font-family: "Rubik Mono One";
+    color: #1A0A3A;
+    padding: 0px 10px;
     display: inline-block;
     height: 32px;
     border: 3px solid #1A0A3A;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-bottom: 25px;
 }
 
-.tech-stack p {
-    font-family: "Rubik Mono One";
-    color: #1A0A3A;
-    padding: 0px 15px;
+.smiski .tech-stack {
+    border: 3px solid #6F906D;
+    color: #6F906D;
 }
 
 .painpoint {
@@ -90,6 +87,26 @@
 .persona-avatar {
     position: relative;
     top: -60px;
+}
+
+.project-button {
+    font-family: "Rubik Mono One";
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.dawgRide .project-button {
+    border: 3px solid #1A0A3A;
+    color: white;
+    background-color: #574879;
+}
+
+.smiski .project-button {
+    border: 3px solid #475945;
+    color: white;
+    background-color: #6F906D;
 }
 
 @media (max-width: 992px) {
