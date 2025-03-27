@@ -9,10 +9,18 @@ export function Homepage() {
         <div>
             <Navbar />
             <div className="contentBody">
-                <h1>Alexia Chan</h1>
-                <h2 className="homepageRole">Frontend Developer</h2>
-                <p className="homepageAbout">I'm an undergraduate Informatics student at the University of Washington, specializing in front-end development with an interest in user experience design. Based in Seattle WA, I’m passionate about turning ideas into functional, visually appealing interfaces.</p>
-                <a href="#projects" className="checkout-link">Check out my work!</a>
+                <div className="pt-lg-5 d-flex gap-5">
+                    <div>
+                        <h1>Alexia Chan</h1>
+                        <h2 className="homepageRole">Frontend Developer</h2>
+                        <p className="homepageAbout">I'm an undergraduate Informatics student at the University of Washington, specializing in front-end development with an interest in user experience design. Based in Seattle WA, I’m passionate about turning ideas into functional, visually appealing interfaces.</p>
+                        <a href="#projects" className="checkout-link">Check out my work!</a>
+                    </div>
+                    <div className="d-none d-lg-block ms-xl-5">
+                        <p className="text-center logo-big">楚</p>
+                        <p className="text-center logo-big">欣</p>
+                    </div> 
+                </div>
 
                 <div id="projects" className="d-flex flex-wrap justify-content-center gap-5 m-5 homepageProjects">
                     <Link to="/dawgride" className="imgBox">

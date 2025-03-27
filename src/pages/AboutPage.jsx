@@ -37,11 +37,18 @@ export function AboutPage() {
 
                 <div className="m-xl-5 px-xl-5 pb-5">
                     <h3 className="mb-4">What does your logo mean?</h3>
-                    <p>blah blah blah blah blah blah blah blah blah blah blah blah blah blah balh blah blah blha
-                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah balh blah blah blha
-                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah balh blah blah blha
-                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah balh blah blah blha
+                    {/* <p>
+                        My logo is the Chinese spelling of my last name, <em>Chan</em>. When thinking of What
+                        my logo should be, I wanted to make sure that it was something that represented who I 
+                        am, and what is important to me. I have always been very appreciative of my culture, 
+                        as it has allowed me to connect with my family in ways that I otherwise would not have 
+                        been able to. 
                     </p>
+                    <p>
+                        On the homepage is my first name, which roughly translates to mean kind, gentle, and 
+                        grateful. This name was given to me by my grandma shortly after I was born. She wanted 
+                        me to 
+                    </p> */}
                 </div>
 
                 <div className="my-5">

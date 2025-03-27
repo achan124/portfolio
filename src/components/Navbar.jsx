@@ -11,7 +11,8 @@ export function Navbar() {
     return (
         <nav className='d-flex justify-content-end'>
             <div className="navbar">
-
+                <NavLink to="/home"><p className="ms-xl-2 nav-logo">陳</p></NavLink>
+                
                 <div className="ms-auto me-2 ham-nav" onClick={toggleMenu}>
                     <span className="hamburger-line"></span>
                     <span className="hamburger-line"></span>
@@ -24,6 +25,7 @@ export function Navbar() {
                     <li><NavLink to="/about">About Me</NavLink></li>
                     <li><NavLink to="/contact">Contact</NavLink></li>
                 </ul>
+                
             </div>
 
             <div className={`${isMenuOpen ? 'd-block' : 'd-none'} hamburger-menu`}>
