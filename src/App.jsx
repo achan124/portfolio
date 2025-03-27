@@ -6,6 +6,9 @@ import { ProjectPage } from "./pages/ProjectPage";
 import { AboutPage } from "./pages/AboutPage";
 import { ContactPage } from "./pages/ContactPage";
 
+import { DawgRide } from "./pages/projects/DawgRide";
+import { SmiskiGrove } from "./pages/projects/SmiskiGrove";
+
 export default function App() {
   return (
     <BrowserRouter>
@@ -15,6 +18,8 @@ export default function App() {
         <Route path="/projects" element={<ProjectPage/>}/>
         <Route path="/about" element={<AboutPage/>}/>
         <Route path="/contact" element={<ContactPage/>}/>
+        <Route path="/dawgride" element={<DawgRide />} />
+        <Route path="/smiski" element={<SmiskiGrove />} />
       </Routes>
     </BrowserRouter>
   )

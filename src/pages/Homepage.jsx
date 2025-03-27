@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
 import { ContactForm } from "../components/ContactForm";
@@ -13,23 +15,23 @@ export function Homepage() {
                 <a href="#projects" className="checkout-link">Check out my work!</a>
 
                 <div id="projects" className="d-flex flex-wrap justify-content-center gap-5 m-5 homepageProjects">
-                    <a href="#" className="imgBox">
+                    <Link to="/dawgride" className="imgBox">
                         <div>
                             <img src=".././public/img/dawgRide.png" alt="DawgRide project mockup"/>
                             <div className="overlay">
                                 <span>DawgRide</span>
                             </div>
                         </div>
-                    </a>
+                    </Link>
 
-                    <a href="#" className="imgBox">
+                    <Link to="/smiski" className="imgBox">
                         <div>
                             <img src=".././public/img/smiskiGrove.png" alt="Smiski Grove project mockup"/>
                             <div className="overlay">
                                 <span>Smiski Grove</span>
                             </div>
                         </div>
-                    </a>
+                    </Link>
                 </div>
 
                 <ContactForm />

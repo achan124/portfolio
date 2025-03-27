@@ -1,0 +1,114 @@
+.dawgRide * {
+    color: black;
+}
+
+.content-container {
+    margin: 25px;
+}
+
+.content-group {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.dawgRide h1 {
+    color: #1A0A3A;
+    text-align: center;
+}
+
+.dawgRide h2 {
+    font-family: "Rubik Mono One";
+    color: #1A0A3A;
+    font-size: 50px;
+}
+
+.dawgRide h3 {
+    color: #1A0A3A;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.dawgRide h4 {
+    color: #1A0A3A;
+    font-size: 30px;
+}
+
+.dawgRide p {
+    font-size: 20px;
+}
+
+.persona-info {
+    list-style: disc;
+}
+
+.dawgRide li, .dawgRide strong {
+    font-size: 20px;
+}
+
+.dawgrideimg {
+    width: 60vw; 
+    min-width: 375px; 
+    max-width: 1000px;
+}
+
+.tech-stack {
+    display: inline-block;
+    height: 32px;
+    border: 3px solid #1A0A3A;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.tech-stack p {
+    font-family: "Rubik Mono One";
+    color: #1A0A3A;
+    padding: 0px 15px;
+}
+
+.painpoint {
+    font-weight: bold;
+}
+
+.hmw-container {
+    border-radius: 25px;
+    background-color: #594a7b;
+}
+
+.hmw-text {
+    font-size: 22px !important;
+    color: rgba(255, 255, 255, 0.626) !important;
+}
+
+.persona-container {
+    width: 100%;
+    position: relative;
+    border: 3px solid #594a7b6b;
+    margin-bottom: 50px;
+    border-radius: 25px;
+}
+
+.persona-avatar {
+    position: relative;
+    top: -60px;
+}
+
+@media (max-width: 992px) {
+    .title {
+        padding-top: 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    .content-container {
+        margin: 25px 20vw;
+    }
+    .persona-container {
+        width: 48%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .content-container {
+        margin: 25px 25vw;
+    }
+}
