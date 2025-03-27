@@ -30,8 +30,8 @@ export function SmiskiGrove() {
                     end-to-end application after learning JavaScript, so it’s just a silly website that demonstrates
                     my ability to implement features such as user authentication, state management, and data storage. 
                 </p>
-                <button className="my-5 me-3 project-button">Website</button>
-                <button className="my-5 project-button">GitHub</button>
+                <button onClick={() => window.open("https://smiski-grove.web.app", "_blank")} className="my-5 me-3 project-button">Website</button>
+                <button onClick={() => window.open("https://github.com/achan124/smiski-grove", "_blank")} className="my-5 project-button">GitHub</button>
 
             </div>
             <Footer />
