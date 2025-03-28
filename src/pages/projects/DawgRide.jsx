@@ -118,8 +118,8 @@ export function DawgRide() {
                     <h2 className="mb-5 pb-lg-3 pt-5">Solution</h2>
                     <div className="d-flex gap-2">
                         <img src="../../public/img/dawgride/nightride.gif" loading="lazy" width={"32%"}/>
-                        <img src="../../public/img/dawgride/nightride.gif" loading="lazy" width={"32%"}/>
-                        <img src="../../public/img/dawgride/nightride.gif" loading="lazy" width={"32%"}/>
+                        <img src="../../public/img/dawgride/safety.gif" loading="lazy" width={"32%"}/>
+                        <img src="../../public/img/dawgride/info.gif" loading="lazy" width={"32%"}/>
                     </div>
                     <h3 className="pt-5 mt-5 pb-3">Key Features</h3>
                     <ul className="persona-info">
