@@ -12,7 +12,7 @@ export function Homepage() {
                 {/* <div className="pt-lg-5"> */}
                     <div className="d-flex flex-column align-items-center">
                         <h1 className="mt-5">Alexia Chan</h1>
-                        <h2 className="homepageRole">Frontend Developer</h2>
+                        <h2 className="homepageRole">Software Developer</h2>
                         <p className="homepageAbout">I'm an undergraduate Informatics student at the University of Washington, specializing in front-end development with an interest in user experience design. Based in Seattle WA, I’m passionate about turning ideas into functional, visually appealing interfaces.</p>
                         <a href="#projects" className="checkout-link">Check out my work!</a>
                     </div>

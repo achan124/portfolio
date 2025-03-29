@@ -13,7 +13,7 @@ export function SmiskiGrove() {
             </div>
             <div className="content-container">
                 
-                <div className="d-flex gap-2">
+                <div className="d-flex flex-wrap gap-2">
                     <p className="tech-stack">HTML</p>
                     <p className="tech-stack">CSS</p>
                     <p className="tech-stack">JavaScript</p>
