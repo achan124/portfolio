@@ -4,6 +4,9 @@ import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
 import { ContactForm } from "../components/ContactForm";
 
+import dawgRideMockup from "../assets/img/dawgRide.png";
+import smiskiGroveMockup from "../assets/img/smiskiGrove.png";
+
 export function Homepage() {
     return (
         <div>
@@ -25,7 +28,7 @@ export function Homepage() {
                 <div id="projects" className="d-flex flex-wrap justify-content-center gap-5 m-5 homepageProjects">
                     <Link to="/dawgride" className="imgBox">
                         <div>
-                            <img src=".././public/img/dawgRide.png" alt="DawgRide project mockup"/>
+                            <img src={dawgRideMockup} alt="DawgRide project mockup"/>
                             <div className="overlay">
                                 <span>DawgRide</span>
                             </div>
@@ -34,7 +37,7 @@ export function Homepage() {
 
                     <Link to="/smiski" className="imgBox">
                         <div>
-                            <img src=".././public/img/smiskiGrove.png" alt="Smiski Grove project mockup"/>
+                            <img src={smiskiGroveMockup} alt="Smiski Grove project mockup"/>
                             <div className="overlay">
                                 <span>Smiski Grove</span>
                             </div>

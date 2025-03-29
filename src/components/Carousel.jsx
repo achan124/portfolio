@@ -4,6 +4,20 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
+import charcuterie from "../assets/img/food/charcuterie.JPG";
+import chirashi from "../assets/img/food/chirashi.JPG";
+import eggsbennie from "../assets/img/food/eggsbennie.JPG";
+import flourbox from "../assets/img/food/flourbox.JPG";
+import halfshell from "../assets/img/food/half-shell.JPG";
+import leon from "../assets/img/food/leon.JPG";
+import madeinhouse from "../assets/img/food/madeinhouse.JPG";
+import mcozy from "../assets/img/food/mcozy.JPG";
+import onibaba from "../assets/img/food/onibaba.JPG";
+import ramen from "../assets/img/food/ramen.JPG";
+import secretcongee from "../assets/img/food/secretcongee.JPG";
+import semicolon from "../assets/img/food/semicolon.JPG";
+import tendonkohaku from "../assets/img/food/tendonkohaku.JPG";
+
 export function Carousel() {
     const swiperRef = useRef(null);
     const prevButtonRef = useRef(null); 
@@ -48,43 +62,43 @@ export function Carousel() {
             >
 
                 <SwiperSlide>
-                    <img src=".././img/food/onibaba.JPG" alt="onibaba" className="carousel-image" />
+                    <img src={onibaba} alt="onibaba" className="carousel-image" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src=".././img/food/chirashi.JPG" alt="chirashi" className="carousel-image" />
+                    <img src={chirashi} alt="chirashi" className="carousel-image" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src=".././img/food/tendonkohaku.JPG" alt="tendon kohaku" className="carousel-image" />
+                    <img src={tendonkohaku} alt="tendon kohaku" className="carousel-image" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src=".././img/food/half-shell.JPG" alt="half shell" className="carousel-image" />
+                    <img src={halfshell} alt="half shell" className="carousel-image" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src=".././img/food/charcuterie.JPG" alt="charcuterie" className="carousel-image" />
+                    <img src={charcuterie} alt="charcuterie" className="carousel-image" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src=".././img/food/mcozy.JPG" alt="mCozy" className="carousel-image" />
+                    <img src={mcozy} alt="mCozy" className="carousel-image" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src=".././img/food/eggsbennie.JPG" alt="eggs benedict" className="carousel-image" />
+                    <img src={eggsbennie} alt="eggs benedict" className="carousel-image" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src=".././img/food/flourbox.JPG" alt="flour box" className="carousel-image" />
+                    <img src={flourbox} alt="flour box" className="carousel-image" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src=".././img/food/semicolon.JPG" alt="semicolon" className="carousel-image" />
+                    <img src={semicolon} alt="semicolon" className="carousel-image" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src=".././img/food/ramen.JPG" alt="ramen" className="carousel-image" />
+                    <img src={ramen} alt="ramen" className="carousel-image" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src=".././img/food/leon.JPG" alt="leon cafe" className="carousel-image" />
+                    <img src={leon} alt="leon cafe" className="carousel-image" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src=".././img/food/secretcongee.JPG" alt="secret congee" className="carousel-image" />
+                    <img src={secretcongee} alt="secret congee" className="carousel-image" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src=".././img/food/madeinhouse.JPG" alt="made in house" className="carousel-image" />
+                    <img src={madeinhouse} alt="made in house" className="carousel-image" />
                 </SwiperSlide>
             </Swiper>
 

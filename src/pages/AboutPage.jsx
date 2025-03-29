@@ -3,6 +3,9 @@ import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
 import { Carousel } from "../components/Carousel";
 
+
+import myPhoto from "../assets/img/me.JPG";
+
 export function AboutPage() {
 
 
@@ -14,7 +17,7 @@ export function AboutPage() {
 
                 <div className="d-flex flex-column flex-lg-row justify-content-center gap-5 mb-5">
                     <div className="d-flex justify-content-center">
-                        <img src=".././public/img/me.JPG" alt="picture of me" className="pb-5 selfie"></img>
+                        <img src={myPhoto} alt="picture of me" className="pb-5 selfie"></img>
                     </div>
                     <div className="d-flex flex-column">
                         <p className="m-xl-5 about-text">Hi there! I'm Alexia Chan, a frontend developer passionate about crafting 

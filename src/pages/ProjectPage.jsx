@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
 
+import dawgRideMockup from "../assets/img/dawgRide.png";
+import smiskiGroveMockup from "../assets/img/smiskiGrove.png";
+
 export function ProjectPage() {
     return (
         <div>
@@ -13,7 +16,7 @@ export function ProjectPage() {
                 <div className="d-flex flex-wrap justify-content-center gap-5 m-5 pt-5">
                     <Link to="/dawgride" className="imgBox">
                         <div>
-                            <img src=".././public/img/dawgRide.png" alt="DawgRide project mockup"/>
+                            <img src={dawgRideMockup} alt="DawgRide project mockup"/>
                             <div className="overlay">
                                 <span>DawgRide</span>
                             </div>
@@ -22,7 +25,7 @@ export function ProjectPage() {
 
                     <Link to="/smiski" className="imgBox">
                         <div>
-                            <img src=".././public/img/smiskiGrove.png" alt="Smiski Grove project mockup"/>
+                            <img src={smiskiGroveMockup} alt="Smiski Grove project mockup"/>
                             <div className="overlay">
                                 <span>Smiski Grove</span>
                             </div>

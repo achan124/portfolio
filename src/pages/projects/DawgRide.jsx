@@ -3,13 +3,24 @@ import "./project.css";
 import { Navbar } from "../../components/Navbar"
 import { Footer } from "../../components/Footer";
 
+import mockup from "../../assets/img/dawgride/dawgridePurple.png";
+import shuttle from "../../assets/img/dawgride/nightride-shuttle.jpg";
+import late from "../../assets/img/dawgride/late.png";
+import confused from "../../assets/img/dawgride/confused.png";
+import discover from "../../assets/img/dawgride/discover.png";
+import personaGeorge from "../../assets/img/dawgride/george.png";
+import personaDevin from "../../assets/img/dawgride/devin.png";
+import nightrideGIF from "../../assets/img/dawgride/nightride.gif";
+import safetyGIF from "../../assets/img/dawgride/safety.gif";
+import infoGIF from "../../assets/img/dawgride/info.gif";
+
 export function DawgRide() {
     return (
         <div style={{backgroundColor: "white"}} className="dawgRide project">
             <Navbar />
             <h1 className="text-center" style={{color: "#1A0A3A"}}>DawgRide</h1>
             <div style={{backgroundColor: "#D8D4E0"}} className="d-flex justify-content-center">
-                <img src="../../public/img/dawgride/dawgRidePurple.png" className="header-image"></img>
+                <img src={mockup} className="header-image"></img>
             </div>
 
             <div className="content-container">
@@ -29,7 +40,7 @@ export function DawgRide() {
                             on ride availability and queue positions disrupts their ability to plan safe and efficient 
                             commutes.
                         </p>
-                        <img src="../../public/img/dawgride/nightride-shuttle.jpg" width={350}/>
+                        <img src={shuttle} width={350}/>
                     </div>
                 </div>
 
@@ -39,21 +50,21 @@ export function DawgRide() {
                         <div>
                             <p className="text-center painpoint">Lateness</p>
                             <div style={{height: 250}} className="text-center">
-                                <img src="../../public/img/dawgride/late.png" width={250} className="d-inline-block"/>
+                                <img src={late} width={250} className="d-inline-block"/>
                             </div>
                             <p className="text-center">NightRide shuttles are often late due to deviations from the fixed route</p>
                         </div>
                         <div>
                             <p className="text-center painpoint">Unintuitive App</p>
                             <div style={{height: 250}} className="text-center">
-                                <img src="../../public/img/dawgride/confused.png" width={180} className="d-inline-block"/>
+                                <img src={confused} width={180} className="d-inline-block"/>
                             </div>
                             <p className="text-center">Current mobile app RideSystems is unintuitive with an outdated interface</p>
                         </div>
                         <div>
                             <p className="text-center painpoint">Low Discoverability</p>
                             <div style={{height: 250}} className="text-center">
-                                <img src="../../public/img/dawgride/discover.png" width={200} className="d-inline-block"/>
+                                <img src={discover} width={200} className="d-inline-block"/>
                             </div>
                             <p className="text-center">Information is only available on the UW website, and is nested across multiple pages.</p>
                         </div>
@@ -73,7 +84,7 @@ export function DawgRide() {
                     <div className="d-flex flex-column flex-md-row gap-5 justify-content-between">
                         <div className="p-4 persona-container">
                             <div className="text-center">
-                                <img src="../../public/img/dawgride/george.png" width={175} className="d-inline-block persona-avatar"/>
+                                <img src={personaGeorge} width={175} className="d-inline-block persona-avatar"/>
                             </div>
                             <h4 className="text-center">George</h4>
                             <p className="m-0 text-center">Age: 18</p>
@@ -94,7 +105,7 @@ export function DawgRide() {
 
                         <div className="p-4 persona-container">
                             <div className="text-center">
-                                <img src="../../public/img/dawgride/devin.png" width={175} className="d-inline-block persona-avatar"/>
+                                <img src={personaDevin} width={175} className="d-inline-block persona-avatar"/>
                             </div>
                             <h4 className="text-center">Devin</h4>
                             <p className="m-0 text-center">Age: 23</p>
@@ -117,9 +128,9 @@ export function DawgRide() {
                 <div className="content-group">
                     <h2 className="mb-5 pb-lg-3 pt-5">Solution</h2>
                     <div className="d-flex gap-2">
-                        <img src="../../public/img/dawgride/nightride.gif" loading="lazy" width={"32%"}/>
-                        <img src="../../public/img/dawgride/safety.gif" loading="lazy" width={"32%"}/>
-                        <img src="../../public/img/dawgride/info.gif" loading="lazy" width={"32%"}/>
+                        <img src={nightrideGIF} loading="lazy" width={"32%"}/>
+                        <img src={safetyGIF} loading="lazy" width={"32%"}/>
+                        <img src={infoGIF} loading="lazy" width={"32%"}/>
                     </div>
                     <h3 className="pt-5 mt-5 pb-3">Key Features</h3>
                     <ul className="persona-info">
