@@ -3,15 +3,13 @@ import "./project.css";
 import { Navbar } from "../../components/Navbar"
 import { Footer } from "../../components/Footer";
 
-import mockup from "../../../public/img/smiski/smiskiGreen.png";
-
 export function SmiskiGrove() {
     return (
         <div style={{backgroundColor: "white"}} className="smiski project">
             <Navbar />
             <h1 className="text-center" style={{color: "#79A07D"}}>Smiski Grove</h1>
             <div style={{backgroundColor: "#E4F1E6"}} className="d-flex justify-content-center">
-                <img src="../../public/img/smiski/smiskiGreen.png" className="header-image"></img>
+                <img src="/img/smiski/smiskiGreen.png" className="header-image"></img>
             </div>
             <div className="content-container">
                 
