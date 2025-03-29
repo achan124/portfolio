@@ -4,7 +4,7 @@ import { Footer } from "../components/Footer";
 import { Carousel } from "../components/Carousel";
 
 
-import myPhoto from "../assets/img/me.JPG";
+import myPhoto from "../../public/img/me.JPG";
 
 export function AboutPage() {
 

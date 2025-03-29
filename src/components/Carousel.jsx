@@ -4,19 +4,19 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import charcuterie from "../assets/img/food/charcuterie.JPG";
-import chirashi from "../assets/img/food/chirashi.JPG";
-import eggsbennie from "../assets/img/food/eggsbennie.JPG";
-import flourbox from "../assets/img/food/flourbox.JPG";
-import halfshell from "../assets/img/food/half-shell.JPG";
-import leon from "../assets/img/food/leon.JPG";
-import madeinhouse from "../assets/img/food/madeinhouse.JPG";
-import mcozy from "../assets/img/food/mcozy.JPG";
-import onibaba from "../assets/img/food/onibaba.JPG";
-import ramen from "../assets/img/food/ramen.JPG";
-import secretcongee from "../assets/img/food/secretcongee.JPG";
-import semicolon from "../assets/img/food/semicolon.JPG";
-import tendonkohaku from "../assets/img/food/tendonkohaku.JPG";
+import charcuterie from "../../public/img/food/charcuterie.JPG";
+import chirashi from "../../public/img/food/chirashi.JPG";
+import eggsbennie from "../../public/img/food/eggsbennie.JPG";
+import flourbox from "../../public/img/food/flourbox.JPG";
+import halfshell from "../../public/img/food/half-shell.JPG";
+import leon from "../../public/img/food/leon.JPG";
+import madeinhouse from "../../public/img/food/madeinhouse.JPG";
+import mcozy from "../../public/img/food/mcozy.JPG";
+import onibaba from "../../public/img/food/onibaba.JPG";
+import ramen from "../../public/img/food/ramen.JPG";
+import secretcongee from "../../public/img/food/secretcongee.JPG";
+import semicolon from "../../public/img/food/semicolon.JPG";
+import tendonkohaku from "../../public/img/food/tendonkohaku.JPG";
 
 export function Carousel() {
     const swiperRef = useRef(null);

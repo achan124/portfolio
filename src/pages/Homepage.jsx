@@ -4,8 +4,8 @@ import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
 import { ContactForm } from "../components/ContactForm";
 
-import dawgRideMockup from "../assets/img/dawgRide.png";
-import smiskiGroveMockup from "../assets/img/smiskiGrove.png";
+import dawgRideMockup from "../../public/img/dawgRide.png";
+import smiskiGroveMockup from "../../public/img/smiskiGrove.png";
 
 export function Homepage() {
     return (

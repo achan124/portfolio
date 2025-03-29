@@ -3,6 +3,8 @@ import "./project.css";
 import { Navbar } from "../../components/Navbar"
 import { Footer } from "../../components/Footer";
 
+import mockup from "../../../public/img/smiski/smiskiGreen.png";
+
 export function SmiskiGrove() {
     return (
         <div style={{backgroundColor: "white"}} className="smiski project">

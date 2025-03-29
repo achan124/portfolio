@@ -3,16 +3,16 @@ import "./project.css";
 import { Navbar } from "../../components/Navbar"
 import { Footer } from "../../components/Footer";
 
-import mockup from "../../assets/img/dawgride/dawgridePurple.png";
-import shuttle from "../../assets/img/dawgride/nightride-shuttle.jpg";
-import late from "../../assets/img/dawgride/late.png";
-import confused from "../../assets/img/dawgride/confused.png";
-import discover from "../../assets/img/dawgride/discover.png";
-import personaGeorge from "../../assets/img/dawgride/george.png";
-import personaDevin from "../../assets/img/dawgride/devin.png";
-import nightrideGIF from "../../assets/img/dawgride/nightride.gif";
-import safetyGIF from "../../assets/img/dawgride/safety.gif";
-import infoGIF from "../../assets/img/dawgride/info.gif";
+import mockup from "../../../public/img/dawgride/dawgridePurple.png";
+import shuttle from "../../../public/img/dawgride/nightride-shuttle.jpg";
+import late from "../../../public/img/dawgride/late.png";
+import confused from "../../../public/img/dawgride/confused.png";
+import discover from "../../../public/img/dawgride/discover.png";
+import personaGeorge from "../../../public/img/dawgride/george.png";
+import personaDevin from "../../../public/img/dawgride/devin.png";
+import nightrideGIF from "../../../public/img/dawgride/nightride.gif";
+import safetyGIF from "../../../public/img/dawgride/safety.gif";
+import infoGIF from "../../../public/img/dawgride/info.gif";
 
 export function DawgRide() {
     return (
