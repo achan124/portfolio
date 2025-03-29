@@ -128,9 +128,9 @@ export function DawgRide() {
                 <div className="content-group">
                     <h2 className="mb-5 pb-lg-3 pt-5">Solution</h2>
                     <div className="d-flex gap-2">
-                        <img src={nightrideGIF} loading="lazy" width={"32%"}/>
-                        <img src={safetyGIF} loading="lazy" width={"32%"}/>
-                        <img src={infoGIF} loading="lazy" width={"32%"}/>
+                        <img src={nightrideGIF} width={"32%"}/>
+                        <img src={safetyGIF} width={"32%"}/>
+                        <img src={infoGIF} width={"32%"}/>
                     </div>
                     <h3 className="pt-5 mt-5 pb-3">Key Features</h3>
                     <ul className="persona-info">
