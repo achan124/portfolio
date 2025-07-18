@@ -44,37 +44,63 @@ export function ContactForm() {
 
     return (
         <>
-            <h2 className="text-center contact-header">Send me a Message!</h2>
+            <h2 className="contact-header">Send me a Message!</h2>
             <div className='m-auto contact-form'>
-                <div className="mb-5 pb-5">
+                <div>
                     <form ref={form} onSubmit={sendEmail} className='d-flex flex-column p-2 mt-4'>
 
-                        <label className='pb-2 pt-2'>Name</label>
+                        <label className='form-label pb-2 pt-2'>Name
+                            <span className="required-asterisk"> *</span>
+                        </label>
                         <input 
                             type="text" 
                             name="user_name" 
                             value={formData.user_name} 
                             onChange={handleInputChange} 
                             required 
+                            className="form-control mb-3"
+                            placeholder="Name"
                         />
 
-                        <label className='pb-2 pt-2'>Email</label>
-                        <input 
-                            type="email" 
-                            name="user_email" 
-                            value={formData.user_email} 
-                            onChange={handleInputChange}  
-                            required />
+                        <label className='form-label pb-2 pt-2'>Email
+                            <span className="required-asterisk"> *</span>
+                        </label>
 
-                        <label className='pb-2 pt-2'>Message</label>
+                        <div className='d-flex gap-3'>
+                            <input 
+                                type="email" 
+                                name="user_email" 
+                                value={formData.user_email} 
+                                onChange={handleInputChange}  
+                                required 
+                                className="form-control mb-3"
+                                placeholder="Email"
+                            />
+                            <input
+                                type="email"
+                                name="confirm_email"
+                                value={formData.confirm_email}
+                                onChange={handleInputChange}
+                                required
+                                className="form-control mb-3"
+                                placeholder="Confirm Email"
+                            />
+                        </div>
+
+                        <label className='form-label pb-2 pt-2'>Message
+                            <span className="required-asterisk"> *</span>
+                        </label>
                         <textarea 
                             name="message" 
                             value={formData.message} 
                             onChange={handleInputChange} 
-                            required ></textarea>
+                            required 
+                            className="form-control mb-3"
+                            placeholder="Message"
+                        ></textarea>
 
-                        <div className='d-flex justify-content-end'>
-                            <input type="submit" value="Send" className='mt-4 form-submit'/>
+                        <div>
+                            <input type="submit" value="Submit" className='mt-4 form-submit'/>
                         </div>
                     </form>
                     {successMessage && <div className="p-2 success-message">{successMessage}</div>}

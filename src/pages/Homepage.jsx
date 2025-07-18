@@ -68,8 +68,6 @@ export function Homepage() {
                         </div>
                     </Link>
                 </div>
-
-                <ContactForm />
             </div>
             <Footer />
             

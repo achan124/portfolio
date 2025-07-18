@@ -195,11 +195,38 @@ h1 {
     font-weight: bold;
     margin: auto;
 }
+.contact-email {
+    font-size: 22px;
+    font-weight: 600;
+}
+.form-label {
+    font-size: 20px;
+}
+.required-asterisk {
+    color: red;
+    font-size: 22px;
+}
 .form-submit {
     padding: 10px 25px;
 }
+.form-control {
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #868686;
+}
+.form-control::placeholder {
+    color: #868686; /* dark gray */
+    /* opacity: 1;  ensure it's fully visible */
+  }
 .contact-form {
-    max-width: 500px;
+    max-width: 800px;
+}
+.contact-form-container {
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
 }
 
 
@@ -207,7 +234,6 @@ h1 {
 @media (min-width: 992px) {
     h1 {
         font-size: 80px; 
-        /* margin-top: 150px; */
     }
     .homepageRole {
         font-size: 50px;
@@ -217,12 +243,8 @@ h1 {
         padding-top: 150px;
         padding-bottom: 100px;
     }
-    .contact-form {
-        padding-bottom: 100px;
-    }
     .contact-header {
-        font-size: 40px;
-        margin-bottom: 75px;
+        font-size: 30px;
     }
 }
 
