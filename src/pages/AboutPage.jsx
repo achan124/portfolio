@@ -12,7 +12,7 @@ export function AboutPage() {
 
                 <div className="d-flex flex-column flex-lg-row justify-content-center gap-5 mb-5">
                     <div className="d-flex justify-content-center">
-                        <img src="/img/me.JPG" alt="picture of me" className="pb-5 selfie"></img>
+                        <img src="/img/gradPic.jpg" alt="picture of me" className="pb-5 selfie"></img>
                     </div>
                     <div className="d-flex flex-column">
                         <p className="m-xl-5 about-text">Hi there! I'm Alexia Chan, a frontend developer passionate about crafting 
@@ -34,7 +34,7 @@ export function AboutPage() {
                     </div>
                 </div>
 
-                <div className="m-xl-5 px-xl-5 pb-5">
+                <div className="m-xl-5 px-xl-5 pb-3">
                     <h3 className="mb-4">What does 陳 mean?</h3>
                     <p>
                         It's my Chinese surname, <em>Chan</em>. I chose it for my logo because my family and culture are 
@@ -44,14 +44,23 @@ export function AboutPage() {
                     </p>
                 </div>
 
-                <div className="my-5">
+                <div className="m-xl-5 px-xl-5 pb-5">
+                    <h3 className="mb-4">Hobbies & Other Interests</h3>
+                    <div>
+                        <div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                {/* <div className="my-5">
                     <h3 className="text-center mb-3">Recent eats</h3>
                     <p className="text-center">
                         I love eating. I also love looking back at yummy foods I've had. Here's a collection of 
                         meals that I really enjoyed.<br/> Feel free to message me for recommendations!
                     </p>
                     <Carousel />
-                </div>
+                </div> */}
 
 
             </div>

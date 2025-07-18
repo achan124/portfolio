@@ -14,10 +14,10 @@ export function SmiskiGrove() {
             <div className="content-container">
                 
                 <div className="d-flex flex-wrap gap-2">
-                    <p className="tech-stack">HTML</p>
-                    <p className="tech-stack">CSS</p>
                     <p className="tech-stack">JavaScript</p>
                     <p className="tech-stack">React.js</p>
+                    <p className="tech-stack">HTML</p>
+                    <p className="tech-stack">CSS</p>
                 </div>
                 <p><strong>Sep 2024 - Dec 2024</strong></p>
                 <p>

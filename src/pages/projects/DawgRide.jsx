@@ -21,7 +21,7 @@ export function DawgRide() {
                     community by building on existing Husky NightRide and SafeTrip services.</p>
 
                 <div className="content-group">
-                    <h2 className="pb-lg-5">Problem Space</h2>
+                    <h2 className="pb-lg-5" style={{color: "#1A0A3A"}}>Problem Space</h2>
                     <div className="d-xl-flex">
                         <p className="p-1 pe-5 align-self-center">
                             UW students experience uncertainty and frustration when using the Husky NightRide and 
@@ -34,7 +34,7 @@ export function DawgRide() {
                 </div>
 
                 <div className="content-group">
-                    <h3 className="text-center pb-5">Pain Points</h3>
+                    <h3 className="text-center pb-5" style={{color: "#1A0A3A"}}>Pain Points</h3>
                     <div className="d-md-flex justify-content-between gap-3">
                         <div>
                             <p className="text-center painpoint">Lateness</p>
@@ -61,7 +61,7 @@ export function DawgRide() {
                 </div>
                 
                 <div className="content-group">
-                    <div className="p-5 hmw-container">
+                    <div className="p-5 hmw-container" style={{backgroundColor: "#594a7b"}}>
                         <h3 className="text-center pb-2" style={{color: "white"}}>How might we...</h3>
                         <p className="text-center hmw-text">provide reliable, real-time updates for UW students using NightRide and SafeCampus 
                             services so that they feel safe and confident staying on campus late at night?</p>
@@ -69,23 +69,23 @@ export function DawgRide() {
                 </div>
 
                 <div className="content-group">
-                    <h2 className="mb-5 pb-lg-5 pt-5">Personas</h2>
+                    <h2 className="mb-5 pb-lg-5 pt-5" style={{color: "#1A0A3A"}}>Personas</h2>
                     <div className="d-flex flex-column flex-md-row gap-5 justify-content-between">
                         <div className="p-4 persona-container">
                             <div className="text-center">
                                 <img src="/img/dawgride/george.png" width={175} className="d-inline-block persona-avatar"/>
                             </div>
-                            <h4 className="text-center">George</h4>
+                            <h4 className="text-center" style={{color: "#1A0A3A"}}>George</h4>
                             <p className="m-0 text-center">Age: 18</p>
                             <p className="text-center">Informatics Undergrad</p>
                             <p>Behaviors:</p>
-                            <ul className="persona-info">
+                            <ul className="list">
                                 <li>Night Owl</li>
                                 <li>Works out late at the IMA</li>
                                 <li>Doesn’t like walking long distances, so he often takes the NightRide shuttle</li>
                             </ul>
                             <p>Needs / Wants:</p>
-                            <ul className="persona-info">
+                            <ul className="list">
                                 <li>Accurate ETA so he knows when to leave the gym</li>
                                 <li>Works out late at the IMA</li>
                                 <li>Wants a clear understanding of bus routes and pick-up zones</li>
@@ -100,13 +100,13 @@ export function DawgRide() {
                             <p className="m-0 text-center">Age: 23</p>
                             <p className="text-center">MBA Student</p>
                             <p>Behaviors:</p>
-                            <ul className="persona-info">
+                            <ul className="list">
                                 <li>Stays late at Paccar to finish assignments</li>
                                 <li>Enjoys hanging out with friends on and off campus</li>
                                 <li>Feels unsafe walking late at night</li>
                             </ul>
                             <p>Needs / Wants:</p>
-                            <ul className="persona-info">
+                            <ul className="list">
                                 <li>Wants to feel safe commuting to and from her apartment</li>
                                 <li>Wants to know her place in the SafeTrip queue</li>
                             </ul>
@@ -115,14 +115,14 @@ export function DawgRide() {
                 </div>
 
                 <div className="content-group">
-                    <h2 className="mb-5 pb-lg-3 pt-5">Solution</h2>
+                    <h2 className="mb-5 pb-lg-3 pt-5" style={{color: "#1A0A3A"}}>Solution</h2>
                     <div className="d-flex gap-2">
                         <img src="/img/dawgride/nightride.gif" width={"32%"}/>
                         <img src="/img/dawgride/safety.gif" width={"32%"}/>
                         <img src="/img/dawgride/info.gif" width={"32%"}/>
                     </div>
-                    <h3 className="pt-5 mt-5 pb-3">Key Features</h3>
-                    <ul className="persona-info">
+                    <h3 className="pt-5 mt-5 pb-3" style={{color: "#1A0A3A"}}>Key Features</h3>
+                    <ul className="list">
                         <li><strong>Interactive Map:</strong> Displays shuttle routes and stops for better planning.</li>
                         <li><strong>Real-Time Tracking:</strong> Shows live shuttle locations for accurate arrival times.</li>
                         <li><strong>Shuttle Occupancy:</strong> Monitors occupancy of NightRide shuttles.</li>

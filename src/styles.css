@@ -84,7 +84,8 @@ h1 {
     background-color: #3486E3;
     border: 3px solid #103662;
     border-radius: 15px;
-    padding: 10px;  
+    padding: 10px; 
+    margin-bottom: 25px;
 }
 .logo-big {
     font-family: "ZCOOL KuaiLe";

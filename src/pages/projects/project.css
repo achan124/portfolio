@@ -15,20 +15,17 @@
     margin-top: 150px;
 }
 
-.dawgRide h2 {
+.project h2 {
     font-family: "Rubik Mono One";
-    color: #1A0A3A;
     font-size: 50px;
 }
 
-.dawgRide h3 {
-    color: #1A0A3A;
+.project h3 {
     font-size: 40px;
     font-weight: bold;
 }
 
-.dawgRide h4 {
-    color: #1A0A3A;
+.project h4 {
     font-size: 30px;
 }
 
@@ -36,11 +33,11 @@
     font-size: 20px;
 }
 
-.persona-info {
+.list {
     list-style: disc;
 }
 
-.dawgRide li, .project strong {
+.project li, .project strong {
     font-size: 20px;
 }
 
@@ -52,18 +49,50 @@
 
 .tech-stack {
     font-family: "Rubik Mono One";
-    color: #1A0A3A;
     padding: 0px 10px;
     display: inline-block;
     height: 32px;
-    border: 3px solid #1A0A3A;
     border-radius: 5px;
     margin-bottom: 25px;
+}
+
+.dawgRide .tech-stack {
+    border: 3px solid #1A0A3A;
+    color: #1A0A3A;
 }
 
 .smiski .tech-stack {
     border: 3px solid #6F906D;
     color: #6F906D;
+}
+
+.recipeasy .tech-stack {
+    border: 3px solid #6F906D;
+    color: #65881A;
+}
+
+.leveluplearning .tech-stack {
+    border: 3px solid #FE6F61;
+    color: #FE6F61;
+}
+
+.queencaphe .tech-stack {
+    border: 3px solid #30569F;
+    color: #30569F;
+}
+
+.circle-number {
+    display: inline-block;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    flex-shrink: 0;   
+    flex-grow: 0;
 }
 
 .painpoint {
@@ -72,12 +101,11 @@
 
 .hmw-container {
     border-radius: 25px;
-    background-color: #594a7b;
 }
 
 .hmw-text {
     font-size: 22px !important;
-    color: rgba(255, 255, 255, 0.626) !important;
+    color: rgba(255, 255, 255, 0.76) !important;
 }
 
 .persona-container {
@@ -111,6 +139,24 @@
     border: 3px solid #475945;
     color: white;
     background-color: #6F906D;
+}
+
+.recipeasy .project-button {
+    border: 3px solid #475945;
+    color: white;
+    background-color: #65881A;
+}
+
+.leveluplearning .project-button {
+    border: 3px solid #fc5e4f;
+    color: white;
+    background-color: #FE6F61;
+}
+
+.queencaphe .project-button {
+    border: 3px solid #30569F;
+    color: white;
+    background-color: #30569F;
 }
 
 @media (max-width: 992px) {

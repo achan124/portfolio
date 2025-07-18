@@ -9,6 +9,9 @@ import { ContactPage } from "./pages/ContactPage";
 
 import { DawgRide } from "./pages/projects/DawgRide";
 import { SmiskiGrove } from "./pages/projects/SmiskiGrove";
+import { Recipeasy } from "./pages/projects/RecipEASY";
+import { LevelUpLearning } from "./pages/projects/LevelUpLearning";
+import { QueenCaphe } from "./pages/projects/QueenCaphe";
 
 export default function App() {
   return (
@@ -22,6 +25,9 @@ export default function App() {
         <Route path="/contact" element={<ContactPage/>}/>
         <Route path="/dawgride" element={<DawgRide />} />
         <Route path="/smiski" element={<SmiskiGrove />} />
+        <Route path="/recipeasy" element={<Recipeasy />} />
+        <Route path="/leveluplearning" element={<LevelUpLearning />} />
+        <Route path="/queencaphe" element={<QueenCaphe />} />
       </Routes>
     </BrowserRouter>
   )
