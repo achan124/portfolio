@@ -171,17 +171,19 @@ export function LevelUpLearning() {
                         </iframe>
                     </div>
 
-                    <h3 className="text-center mt-5">Reading</h3>
-                    <img src="/img/leveluplearning/solution1.png" width={"900"} className="pb-3"/>
-                    <h3 className="text-center pt-5">Quiz</h3>
-                    <img src="/img/leveluplearning/solution2.png" width={"900"} className="pb-3"/>
-                    <h3 className="text-center pt-5">Character Building</h3>
-                    <img src="/img/leveluplearning/solution3.png" width={"900"}/>
-                    <h3 className="text-center pt-5">Games</h3>
-                    <img src="/img/leveluplearning/solution4.png" width={"900"} className="pb-3"/>
+                    <div className="mb-5 pb-5">
+                        <h3 className="text-center mt-5">Reading</h3>
+                        <img src="/img/leveluplearning/solution1.png" width={"900"} className="pb-3"/>
+                        <h3 className="text-center pt-5">Quiz</h3>
+                        <img src="/img/leveluplearning/solution2.png" width={"900"} className="pb-3"/>
+                        <h3 className="text-center pt-5">Character Building</h3>
+                        <img src="/img/leveluplearning/solution3.png" width={"900"}/>
+                        <h3 className="text-center pt-5">Games</h3>
+                        <img src="/img/leveluplearning/solution4.png" width={"900"} className="pb-3"/>
+                    </div>
 
-                    <button onClick={() => window.open("https://capstonecades4.vercel.app/", "_blank")} className="mt-5 me-3 project-button">Website</button>
-                    <button onClick={() => window.open("https://github.com/CADES25/capstone", "_blank")} className="mt-5 project-button">GitHub</button>
+                    <button onClick={() => window.open("https://capstonecades4.vercel.app/", "_blank")} className="checkout-link mt-5 me-3 project-button">Website</button>
+                    <button onClick={() => window.open("https://github.com/CADES25/capstone", "_blank")} className="checkout-link mt-5 project-button">GitHub</button>
                 </div>
             </div>
             <Footer />

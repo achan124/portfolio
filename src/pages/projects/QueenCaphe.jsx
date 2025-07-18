@@ -32,7 +32,7 @@ export function QueenCaphe() {
 
                 <div className="content-group">
                     <h2 className="mb-5 pb-lg-3 pt-5 text-center" style={{color: "#30569F"}}>Solution</h2>
-                    {/* <div>
+                    {/* <div className="mb-5 pb-5">
                         <img src="/img/recipeasy/solution1.png" width={"900"} className="pb-3"/>
                         <img src="/img/recipeasy/solution2.png" width={"900"} className="pb-3"/>
                         <img src="/img/recipeasy/solution3.png" width={"900"}/>
@@ -40,7 +40,7 @@ export function QueenCaphe() {
                         <img src="/img/recipeasy/solution5.png" width={"900"}/>
                     </div> */}
 
-                    <button onClick={() => window.open("https://queencaphe.com/", "_blank")} className="mt-5 me-3 project-button">Website</button>
+                    <button onClick={() => window.open("https://queencaphe.com/", "_blank")} className="checkout-link mt-5 me-3 project-button">Website</button>
                 </div>
             </div>
             <Footer />

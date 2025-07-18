@@ -141,14 +141,14 @@ export function Recipeasy() {
                     <img src="/img/recipeasy/dataflowDiagram.png" width={900} />
                 </div>
 
-                <div className="content-group">
+                <div className="text-center content-group">
                     <h2 className="mb-5 pb-lg-5 pt-5 text-center" style={{color: "#65881A"}}>Backend</h2>
                     <img src="/img/recipeasy/backend.png" width={700} />
                 </div>
 
                 <div className="content-group">
                     <h2 className="mb-5 pb-lg-3 pt-5 text-center" style={{color: "#65881A"}}>Solution</h2>
-                    <div>
+                    <div className="mb-5 pb-5">
                         <img src="/img/recipeasy/solution1.png" width={"900"} className="pb-3"/>
                         <img src="/img/recipeasy/solution2.png" width={"900"} className="pb-3"/>
                         <img src="/img/recipeasy/solution3.png" width={"900"}/>
@@ -156,8 +156,8 @@ export function Recipeasy() {
                         <img src="/img/recipeasy/solution5.png" width={"900"}/>
                     </div>
 
-                    <button onClick={() => window.open("https://recipeasy-y11k.onrender.com/", "_blank")} className="mt-5 me-3 project-button">Website</button>
-                    <button onClick={() => window.open("https://github.com/jessxiong/recipeasy?tab=readme-ov-file", "_blank")} className="mt-5 project-button">GitHub</button>
+                    <button onClick={() => window.open("https://recipeasy-y11k.onrender.com/", "_blank")} className="checkout-link mt-5 me-3 project-button">Website</button>
+                    <button onClick={() => window.open("https://github.com/jessxiong/recipeasy?tab=readme-ov-file", "_blank")} className="checkout-link mt-5 project-button">GitHub</button>
                 </div>
             </div>
             <Footer />

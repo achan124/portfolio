@@ -58,6 +58,26 @@ ul {list-style: none;}
     background-color: #103662;
 }
 
+/* neon hover effect */
+.navbar a,
+.hamburger-menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.navbar a:hover,
+.hamburger-menu a:hover {
+  color: white;
+  transform: scale(1.05);
+  text-shadow:
+    0 0 3px #ffffff,
+    0 0 6px #ffffff;
+}
+
 
 /* !! homepage !! */
 h1 {
@@ -87,6 +107,31 @@ h1 {
     padding: 10px; 
     margin-bottom: 25px;
 }
+.checkout-link,
+.form-submit,
+.resume-link {
+  font-family: "Rubik Mono One";
+  color: white;
+  text-decoration: none;
+  background-color: #3486E3;
+  border: 3px solid #103662;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 25px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+.checkout-link:hover,
+.form-submit:hover,
+.resume-link:hover {
+  background-color: #2b6fb8; 
+  transform: scale(1.05);
+  box-shadow:
+    0 0 4px #ffffff,
+    0 0 8px #ffffff;
+  cursor: pointer;
+}
+
 .logo-big {
     font-family: "ZCOOL KuaiLe";
     font-size: 150px;
@@ -99,28 +144,47 @@ h1 {
     max-width: 600px;
     min-width: 330px;
     text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    display: block;
+    border-radius: 15px;
+    overflow: hidden;
 }
 .imgBox img {
     width: 100%;
     height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+.imgBox:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
+    z-index: 2;
+}
+.imgBox:hover img {
+    transform: scale(1.05);
 }
 .overlay {
-    transform: translate(0, -52px);
-    background: #57575750; 
-    padding: 10px 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(20, 20, 20, 0.4); 
+    padding: 12px 0;
     font-weight: bold;
     opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
     text-align: center;
+    transform: translateY(100%);
 }
 .overlay span {
     color: white;
     font-size: 20px;
+    letter-spacing: 1px;
 }
 .imgBox:hover .overlay {
     opacity: 1;
+    transform: translateY(0%);
 }
-
 
 /* !! about me !! */
 .selfie {

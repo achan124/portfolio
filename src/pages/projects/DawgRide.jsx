@@ -131,7 +131,7 @@ export function DawgRide() {
                         <li><strong>Safety Map:</strong> Allows users to report and review suspicious activity on campus.</li>
                         <li><strong>Info/FAQ Section:</strong> Educates users on Husky NightRide, SafeTrip, and DawgRide usage.</li>
                     </ul>
-                    <button onClick={() => window.open("https://github.com/achan124/dawgRide", "_blank")} className="mt-5 project-button">GitHub</button>
+                    <button onClick={() => window.open("https://github.com/achan124/dawgRide", "_blank")} className="checkout-link mt-5 project-button">GitHub</button>
                 </div>
             </div>
             <Footer />
