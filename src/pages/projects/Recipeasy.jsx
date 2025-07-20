@@ -39,9 +39,6 @@ export function Recipeasy() {
 
                 <div className="content-group">
                     <h2 style={{color: "#65881A"}}>Project Description</h2>
-                    {/* <div className="text-center p-3 pb-5">
-                        <img src="/img/recipeasy/fryingpan.png" width={200}/>
-                    </div> */}
                     <h3>Who is our target audience?</h3>
                     <p className="p-1 pe-5 align-self-center">
                         Our project is targeted towards anyone who relies on recipes to cook—whether they are cooking enthusiasts, 
@@ -82,12 +79,12 @@ export function Recipeasy() {
 
                 <div className="content-group">
                     <h2 className="text-center pb-5" style={{color: "#65881A"}}>Features</h2>
-                    <div className="text-center">
-                        <img src="/img/recipeasy/featuresGraphic.png" width={400} />
+                    <div className="text-center mb-5">
+                        <img src="/img/recipeasy/featuresGraphic.png" width={"60%"} />
                     </div>
                     
-                    <div className="d-flex flex-wrap justify-content-center gap-5 pt-5">
-                        <div style={{width: "45%"}}>
+                    <div className="d-lg-flex flex-wrap gap-3">
+                        <div className="width45">
                             <div className="d-flex align-items-center gap-3">
                                 <span className="circle-number" style={{backgroundColor: "#B7A57A"}}>1</span>
                                 <h4>Authentication</h4>
@@ -97,7 +94,7 @@ export function Recipeasy() {
                                 <li>Privacy settings</li>
                             </ul>
                         </div>
-                        <div style={{width: "45%"}}>
+                        <div className="width45">
                             <div className="d-flex align-items-center gap-3">
                                 <span className="circle-number" style={{backgroundColor: "#EF884B"}}>2</span>
                                 <h4>Recipes</h4>
@@ -108,7 +105,7 @@ export function Recipeasy() {
                                 <li>Filter by ingredient feature</li>
                             </ul>
                         </div>
-                        <div style={{width: "45%"}}>
+                        <div className="width45">
                             <div className="d-flex align-items-center gap-3">
                                 <span className="circle-number" style={{backgroundColor: "#C5CF5D"}}>3</span>
                                 <h4>User Actions</h4>
@@ -119,7 +116,7 @@ export function Recipeasy() {
                                 <li>Save recipes to cookbooks</li>
                             </ul>
                         </div>
-                        <div style={{width: "45%"}}>
+                        <div className="width45">
                             <div className="d-flex align-items-center gap-3">
                                 <span className="circle-number" style={{backgroundColor: "#E75038"}}>4</span>
                                 <h4>Cookbooks</h4>
@@ -136,24 +133,24 @@ export function Recipeasy() {
                 <div className="content-group">
                     <h2 className="mb-5 pb-lg-5 pt-5" style={{color: "#65881A"}}>Technical Description</h2>
                     <h3 className="pb-3">Architectural Diagram</h3>
-                    <img src="/img/recipeasy/architecturalDiagram.png" width={900} />
+                    <img src="/img/recipeasy/architecturalDiagram.png" width={"100%"} />
                     <h3>Data Flow Diagram</h3>
-                    <img src="/img/recipeasy/dataflowDiagram.png" width={900} />
+                    <img src="/img/recipeasy/dataflowDiagram.png" width={"100%"} />
                 </div>
 
                 <div className="text-center content-group">
                     <h2 className="mb-5 pb-lg-5 pt-5 text-center" style={{color: "#65881A"}}>Backend</h2>
-                    <img src="/img/recipeasy/backend.png" width={700} />
+                    <img src="/img/recipeasy/backend.png" width={"80%"} />
                 </div>
 
                 <div className="content-group">
                     <h2 className="mb-5 pb-lg-3 pt-5 text-center" style={{color: "#65881A"}}>Solution</h2>
                     <div className="mb-5 pb-5">
-                        <img src="/img/recipeasy/solution1.png" width={"900"} className="pb-3"/>
-                        <img src="/img/recipeasy/solution2.png" width={"900"} className="pb-3"/>
-                        <img src="/img/recipeasy/solution3.png" width={"900"}/>
-                        <img src="/img/recipeasy/solution4.png" width={"900"} className="pb-3"/>
-                        <img src="/img/recipeasy/solution5.png" width={"900"}/>
+                        <img src="/img/recipeasy/solution1.png" width={"100%"} className="pb-5"/>
+                        <img src="/img/recipeasy/solution2.png" width={"100%"} className="pb-5"/>
+                        <img src="/img/recipeasy/solution3.png" width={"100%"}/>
+                        <img src="/img/recipeasy/solution4.png" width={"100"} className="pb-5"/>
+                        <img src="/img/recipeasy/solution5.png" width={"100"}/>
                     </div>
 
                     <button onClick={() => window.open("https://recipeasy-y11k.onrender.com/", "_blank")} className="checkout-link mt-5 me-3 project-button">Website</button>

@@ -104,7 +104,7 @@ h1 {
 }
 .homepageAbout-bold {
     font-size: 20px;
-    padding-top: 32px;
+    /* padding-top: 32px; */
 }
 .homepageAbout {
     font-size: 16px;
@@ -218,7 +218,7 @@ h1 {
 /* !! about me !! */
 .selfie {
     width: 350px;
-    /* height: auto;  */
+    height: 510px; 
 }
 .about-text {
     max-width: 800px;
@@ -230,16 +230,9 @@ h1 {
 /* !! contact form !! */
 .contact-header {
     font-family: "Rubik Mono One";
-    font-size: 16px;
+    font-size: 24px;
     font-weight: bold;
     margin: auto;
-}
-.contact-email {
-    font-size: 16px;
-    font-weight: 600;
-}
-.form-label {
-    font-size: 16px;
 }
 .required-asterisk {
     color: red;
@@ -281,6 +274,9 @@ h1 {
     .homepageRole {
         font-size: 30px;
     }
+    .homepageAbout {
+        margin-right: 50px;
+    }
     .homepageProjects{
         flex-direction: row;
         padding-top: 100px;
@@ -288,15 +284,9 @@ h1 {
     .polaroid-outline {
         display: flex;
     }
-    .contact-header {
-        font-size: 24px;
-    }
 }
 
 @media (min-width: 1200px) {
-    .homepageAbout {
-        width: 625px;
-    }
     .ham-nav {
         display: none;
     }
@@ -310,23 +300,19 @@ h1 {
         font-size: 16px;
         font-weight: bold;
     }
+    .homepageAbout-bold {
+        padding-top: 32px;
+    }
     .homepageProjects{
         flex-direction: row;
     }
-    /* .homepageRole {
-        pa
-    } */
     .imgBox {
         max-width: 45%;
-    }
-    .logo-big {
-        font-size: 200px;
-        margin-top: -50px;
     }
 }
 
 @media (min-width: 1400px) {
-    .logo-big {
-        margin-left: 55%;
+    .homepageAbout {
+        width: 625px;
     }
 }

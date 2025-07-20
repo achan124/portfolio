@@ -17,11 +17,11 @@
 
 .project h2 {
     font-family: "Rubik Mono One";
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .project h3 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .project p {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .list {
@@ -38,7 +38,7 @@
 }
 
 .project li, .project strong {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .header-image {
@@ -133,7 +133,7 @@
     font-family: "Rubik Mono One";
     padding: 5px 15px;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -179,6 +179,9 @@
     }
     .persona-container {
         width: 48%;
+    }
+    .width45 {
+        width: 45%;
     }
 }
 

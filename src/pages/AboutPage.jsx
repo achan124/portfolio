@@ -10,7 +10,7 @@ export function AboutPage() {
             <div className="contentBody p-5">
                 <h1 style={{fontSize: 45}} className="text-center pt-3">About me</h1>
 
-                <div className="d-flex flex-column flex-lg-row justify-content-center gap-5 mt-5 py-3 px-5">
+                <div className="d-flex flex-column flex-xl-row justify-content-center gap-5 mt-5 py-3 px-xl-5">
                     <div className="d-flex justify-content-center">
                         <img src="/img/gradPic.jpg" alt="picture of me" className="pb-5 selfie"></img>
                     </div>

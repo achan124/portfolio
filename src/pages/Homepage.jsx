@@ -12,7 +12,7 @@ export function Homepage() {
                     <div className="py-md-2">
                         <p className="homepageAbout-bold">Hi, my name is</p>
                         
-                        <div className="d-md-flex gap-5">
+                        <div className="d-xl-flex gap-5">
                             <h1>Alexia</h1>
                             <p className="homepageAbout-bold">and I am a...</p>
                         </div>
@@ -40,6 +40,7 @@ export function Homepage() {
                         </div>
                     </div>
                 </div>
+                
                 <div className="text-center mt-4">
                     <a href="#projects" className="checkout-link">Check out my work!</a>
                 </div>
