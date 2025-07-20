@@ -7,8 +7,8 @@ export function ProjectPage() {
     return (
         <div>
             <Navbar />
-            <div className="contentBody">
-                <h1 style={{fontSize: 50}} className="text-center">My Projects</h1>
+            <div className="contentBody p-5">
+                <h1 style={{fontSize: 45}} className="text-center">My Projects</h1>
 
                 <div className="d-flex flex-wrap justify-content-center gap-5 m-5 pt-5">
                     <Link to="/queencaphe" className="imgBox">

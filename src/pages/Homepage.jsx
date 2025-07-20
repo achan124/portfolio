@@ -2,25 +2,25 @@ import { Link } from "react-router-dom";
 
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
-import { ContactForm } from "../components/ContactForm";
 
 export function Homepage() {
     return (
         <div>
             <Navbar />
             <div className="contentBody">
-                {/* <div className="pt-lg-5"> */}
-                    <div className="d-flex flex-column align-items-center">
-                        <h1 className="mt-5">Alexia Chan</h1>
+                <div className="p-5">
+                    <p className="homepageAbout-bold">Hi, my name is</p>
+                    <h1>Alexia Chan</h1>
+                    <div className="d-md-flex gap-5">
+                        <p className="homepageAbout-bold">and I am a...</p>
                         <h2 className="homepageRole">Front-End Developer</h2>
-                        <p className="homepageAbout">I'm a recent Informatics graduate from the University of Washington, specializing in front-end development with an interest in user experience design. Based in Seattle WA, I’m passionate about turning ideas into functional, visually appealing interfaces.</p>
-                        <a href="#projects" className="checkout-link">Check out my work!</a>
                     </div>
-                    {/* <div className="d-none d-lg-block ms-xl-5">
-                        <p className="text-center logo-big">楚</p>
-                        <p className="text-center logo-big">欣</p>
-                    </div>  */}
-                {/* </div> */}
+                    
+                    <p className="homepageAbout">I'm a recent Informatics graduate from the University of Washington, specializing in front-end development with an interest in user experience design. Based in Seattle WA, I’m passionate about turning ideas into functional, visually appealing interfaces.</p>
+                    <div className="text-center mt-5 pt-md-5">
+                        <a href="#projects" className="checkout-link mt-md-5">Check out my work!</a>
+                    </div>
+                </div>
 
                 <div id="projects" className="d-flex flex-wrap justify-content-center gap-5 m-5 homepageProjects">
                     <Link to="/queencaphe" className="imgBox">

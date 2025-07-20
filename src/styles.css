@@ -2,23 +2,34 @@
 * {
     box-sizing: border-box;
     font-size: 16px;
-    color: #103662;
+    color: #6F727C;
 }
 
-body {background-color: #EDF6FC;}
+body {
+    background-image: url('/img/gradient-background.png');
+    background-size: cover;
+}
 
 ul {list-style: none;}
 
 .contentBody {
-    margin-top: 150px;
-    margin-left: 10%; 
-    margin-right: 10%; 
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 2%; 
+    margin-right: 2%; 
     min-height: 100vh;
+    border-radius: 50px;
 }
 
 /* !! navbar & footer !! */
 .navbar {
-    background-color: #103662;
+    background: rgba(255, 255, 255, 0.25); 
+    backdrop-filter: blur(12px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
     width: 100%;
     position: fixed;
     top: 0;
@@ -26,7 +37,7 @@ ul {list-style: none;}
     z-index: 10;
 }
 .nav-logo {
-    color: white !important;
+    color: #292c91 !important;
     font-size: 32px !important;
     padding-left: 20px;
     position: absolute;
@@ -37,17 +48,22 @@ ul {list-style: none;}
     width: 25px;
     height: 2px;
     margin: 5px;
-    background-color: white;
+    background-color: #6F727C;
 }
 .hamburger-menu {
     display: none;
-    background-color: #103662;
     position: fixed;
+    right: 0;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
     margin-top: 42px;
-}
+    z-index: 100;
+  }
 .hamburger-links a {
     text-decoration: none;
-    color: white;
+    color: #6F727C;
     font-size: 20px;
     padding-right: 20px;
 }
@@ -55,27 +71,25 @@ ul {list-style: none;}
     display: none;
 }
 .footer {
-    background-color: #103662;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 /* neon hover effect */
 .navbar a,
 .hamburger-menu a {
-  color: white;
+  color: #6F727C;
   text-decoration: none;
   font-weight: bold;
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
 }
-
 .navbar a:hover,
 .hamburger-menu a:hover {
-  color: white;
+  color: #292c91;
   transform: scale(1.05);
-  text-shadow:
-    0 0 3px #ffffff,
-    0 0 6px #ffffff;
 }
 
 
@@ -85,65 +99,56 @@ h1 {
     font-family: "Rubik Mono One";
 }
 .homepageRole {
-    color: #3486E3;
+    color: #292c91;
     font-size: 30px;
-    margin-top: -15px;
+}
+.homepageAbout-bold {
+    font-size: 30px;
 }
 .homepageAbout {
     font-size: 20px;
     margin-top: 50px;
-    margin-bottom: 100px;
 }
 .homepageProjects {
     padding-top: 50px;
-}
-.checkout-link, .form-submit, .resume-link {
-    font-family: "Rubik Mono One";
-    color: white;
-    text-decoration: none;
-    background-color: #3486E3;
-    border: 3px solid #103662;
-    border-radius: 15px;
-    padding: 10px; 
-    margin-bottom: 25px;
 }
 .checkout-link,
 .form-submit,
 .resume-link {
   font-family: "Rubik Mono One";
-  color: white;
   text-decoration: none;
-  background-color: #3486E3;
-  border: 3px solid #103662;
+  color: white;
+  background-color: #292C91;             
+  border: 3px solid rgba(255, 255, 255, 0.4); 
   border-radius: 15px;
-  padding: 10px;
+  padding: 10px 20px;
   margin-bottom: 25px;
+  box-shadow: 0 4px 10px rgba(41, 44, 145, 0.15); 
   transition: all 0.3s ease;
   display: inline-block;
 }
 .checkout-link:hover,
 .form-submit:hover,
 .resume-link:hover {
-  background-color: #2b6fb8; 
+  background-color: #767adb;        
   transform: scale(1.05);
   box-shadow:
-    0 0 4px #ffffff,
-    0 0 8px #ffffff;
+    0 0 6px rgba(255, 255, 255, 0.3),
+    0 0 12px rgba(81, 84, 196, 0.3);    
   cursor: pointer;
 }
-
 .logo-big {
     font-family: "ZCOOL KuaiLe";
     font-size: 150px;
     margin-bottom: -30px;
 }
 
-
 /* !! projects !!  */
 .imgBox {
     max-width: 600px;
     min-width: 330px;
     text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
     display: block;
@@ -200,7 +205,7 @@ h1 {
 
 
 /* !! food carousel !! */
-.carousel-container {
+/* .carousel-container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 50px 60px;
@@ -249,7 +254,7 @@ h1 {
 .custom-next::after {
     transform: rotate(135deg); 
     margin-left: -20px; 
-}
+} */
 
 
 /* !! contact form !! */
@@ -279,14 +284,12 @@ h1 {
     border: 1px solid #868686;
 }
 .form-control::placeholder {
-    color: #868686; /* dark gray */
-    /* opacity: 1;  ensure it's fully visible */
-  }
+    color: #868686; 
+}
 .contact-form {
     max-width: 800px;
 }
 .contact-form-container {
-    background-color: #FFFFFF;
     border-radius: 25px;
     height: 100%;
     width: 100%;
@@ -298,6 +301,12 @@ h1 {
 @media (min-width: 992px) {
     h1 {
         font-size: 80px; 
+    }
+    .contentBody {
+        padding: 50px;
+        margin-top: 150px;
+        margin-left: 10%; 
+        margin-right: 10%; 
     }
     .homepageRole {
         font-size: 50px;
@@ -325,7 +334,7 @@ h1 {
     }
     .reg-nav a {
         text-decoration: none;
-        color: white; 
+        color: #6F727C; 
         font-size: 18px;
         font-weight: bold;
     }
@@ -344,9 +353,6 @@ h1 {
 }
 
 @media (min-width: 1400px) {
-    .homepageRole {
-        margin-left: 350px;
-    }
     .logo-big {
         margin-left: 55%;
     }

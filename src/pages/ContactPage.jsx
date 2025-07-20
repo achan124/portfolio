@@ -6,21 +6,21 @@ export function ContactPage() {
     return (
         <div>
             <Navbar />
-            <div className="contentBody d-flex gap-5 justify-content-center">
+            <div className="contentBody d-md-flex gap-5 justify-content-center">
 
-                <div className="contact-form-container mt-5" style={{backgroundColor: "#EDF6FB"}}>
+                <div className="contact-form-container mt-5 p-5">
                     <h2 className="contact-header">Contact Me</h2>
                     <p className="form-label pt-3 mb-3 me-5">
                         Have a question? An open position? Want to give me feedback? Send an email!
                     </p>
 
                     <div className="d-flex gap-3 align-items-center">
-                        <span class="material-symbols-outlined">mail</span>
+                        <span className="material-symbols-outlined">mail</span>
                         <p className="contact-email pt-3">Email</p>
                     </div>
                     <p className="form-label">alexiachan24@gmail.com</p>
                     
-                    <div className="d-flex gap-3 mt-5 pt-5">
+                    <div className="d-flex gap-3 mt-md-5 pt-5">
                         {/* GitHub */}
                         <a href="https://github.com/achan124" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="black" className="bi bi-github" viewBox="0 0 16 16">
@@ -37,7 +37,7 @@ export function ContactPage() {
                     </div>
                 </div>
 
-                <div className="contact-form-container mt-5 p-5">
+                <div className="contact-form-container mt-5 p-5" style={{backgroundColor: "white"}}>
                     <ContactForm />
                 </div>
             </div>

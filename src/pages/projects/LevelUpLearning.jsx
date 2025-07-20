@@ -115,7 +115,7 @@ export function LevelUpLearning() {
                         </p>
                     </div>
 
-                    <h3 className="mb-4 mt-5">Personas</h3>
+                    
                     <h4 className="mb-4">Sam - The Motivated Gamer</h4>
                     <img src="/img/leveluplearning/personaSam.png" width={750}/>
 
@@ -132,6 +132,51 @@ export function LevelUpLearning() {
                     <div className="d-flex align-items-start gap-2">
                         <img src="/img/leveluplearning/bullet.png" width={30} alt="bullet icon" />
                         <p>Functionality - Is the design easy to understand and use?</p>
+                    </div>
+
+                    <h2 className="mb-5 pb-lg-5 pt-5" style={{color: "#1A0A3A"}}>Personas</h2>
+                    <h3 className="mb-4 mt-5">Personas</h3>
+                    <div className="d-flex flex-column flex-md-row gap-5 justify-content-between">
+                        <div className="p-4 persona-container">
+                            <div className="text-center">
+                                <img src="/img/dawgride/george.png" width={175} className="d-inline-block persona-avatar"/>
+                            </div>
+                            <h4 className="text-center" style={{color: "#1A0A3A"}}>George</h4>
+                            <p className="m-0 text-center">Age: 18</p>
+                            <p className="text-center">Informatics Undergrad</p>
+                            <p>Behaviors:</p>
+                            <ul className="list">
+                                <li>Night Owl</li>
+                                <li>Works out late at the IMA</li>
+                                <li>Doesn’t like walking long distances, so he often takes the NightRide shuttle</li>
+                            </ul>
+                            <p>Needs / Wants:</p>
+                            <ul className="list">
+                                <li>Accurate ETA so he knows when to leave the gym</li>
+                                <li>Works out late at the IMA</li>
+                                <li>Wants a clear understanding of bus routes and pick-up zones</li>
+                            </ul>
+                        </div>
+
+                        <div className="p-4 persona-container">
+                            <div className="text-center">
+                                <img src="/img/dawgride/devin.png" width={175} className="d-inline-block persona-avatar"/>
+                            </div>
+                            <h4 className="text-center">Devin</h4>
+                            <p className="m-0 text-center">Age: 23</p>
+                            <p className="text-center">MBA Student</p>
+                            <p>Behaviors:</p>
+                            <ul className="list">
+                                <li>Stays late at Paccar to finish assignments</li>
+                                <li>Enjoys hanging out with friends on and off campus</li>
+                                <li>Feels unsafe walking late at night</li>
+                            </ul>
+                            <p>Needs / Wants:</p>
+                            <ul className="list">
+                                <li>Wants to feel safe commuting to and from her apartment</li>
+                                <li>Wants to know her place in the SafeTrip queue</li>
+                            </ul>
+                        </div>
                     </div>
 
                     <p><strong>Insights</strong></p>

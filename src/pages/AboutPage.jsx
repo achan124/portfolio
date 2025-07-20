@@ -7,8 +7,8 @@ export function AboutPage() {
     return (
         <div>
             <Navbar />
-            <div className="contentBody">
-                <h1 style={{fontSize: 50}} className="text-center mb-5 pb-5">About me</h1>
+            <div className="contentBody p-5">
+                <h1 style={{fontSize: 45}} className="text-center mb-5 pb-5">About me</h1>
 
                 <div className="d-flex flex-column flex-lg-row justify-content-center gap-5 mb-5">
                     <div className="d-flex justify-content-center">
