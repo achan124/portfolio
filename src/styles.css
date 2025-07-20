@@ -37,7 +37,7 @@ ul {list-style: none;}
     z-index: 10;
 }
 .nav-logo {
-    color: #292c91 !important;
+    color: #6F727C !important;
     font-size: 32px !important;
     padding-left: 20px;
     position: absolute;
@@ -99,7 +99,7 @@ h1 {
     font-family: "Rubik Mono One";
 }
 .homepageRole {
-    color: #292c91;
+    color: #292C91;
     font-size: 30px;
 }
 .homepageAbout-bold {
@@ -130,7 +130,7 @@ h1 {
 .checkout-link:hover,
 .form-submit:hover,
 .resume-link:hover {
-  background-color: #767adb;        
+  background-color: #5154C4;        
   transform: scale(1.05);
   box-shadow:
     0 0 6px rgba(255, 255, 255, 0.3),

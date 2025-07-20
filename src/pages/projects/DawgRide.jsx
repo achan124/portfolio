@@ -75,7 +75,7 @@ export function DawgRide() {
                             <div className="text-center">
                                 <img src="/img/dawgride/george.png" width={175} className="d-inline-block persona-avatar"/>
                             </div>
-                            <h4 className="text-center" style={{color: "#1A0A3A"}}>George</h4>
+                            <h4 className="text-center mt-5" style={{color: "#1A0A3A"}}>George</h4>
                             <p className="m-0 text-center">Age: 18</p>
                             <p className="text-center">Informatics Undergrad</p>
                             <p>Behaviors:</p>
@@ -96,7 +96,7 @@ export function DawgRide() {
                             <div className="text-center">
                                 <img src="/img/dawgride/devin.png" width={175} className="d-inline-block persona-avatar"/>
                             </div>
-                            <h4 className="text-center">Devin</h4>
+                            <h4 className="text-center mt-5" style={{color: "#1A0A3A"}}>Devin</h4>
                             <p className="m-0 text-center">Age: 23</p>
                             <p className="text-center">MBA Student</p>
                             <p>Behaviors:</p>

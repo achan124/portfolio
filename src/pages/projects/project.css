@@ -118,7 +118,15 @@
 
 .persona-avatar {
     position: relative;
-    top: -60px;
+    margin-top: -60px;
+}
+
+.leveluplearning .persona-avatar{
+    margin-top: -100px;
+}
+
+.leveluplearning .persona-container{
+    border: 3px solid #ffc3bc;
 }
 
 .project-button {
