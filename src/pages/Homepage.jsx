@@ -8,18 +8,40 @@ export function Homepage() {
         <div>
             <Navbar />
             <div className="contentBody">
-                <div className="p-5">
-                    <p className="homepageAbout-bold">Hi, my name is</p>
-                    <h1>Alexia Chan</h1>
-                    <div className="d-md-flex gap-5">
-                        <p className="homepageAbout-bold">and I am a...</p>
+                <div className="d-flex p-5">
+                    <div className="py-md-2">
+                        <p className="homepageAbout-bold">Hi, my name is</p>
+                        
+                        <div className="d-md-flex gap-5">
+                            <h1>Alexia</h1>
+                            <p className="homepageAbout-bold">and I am a...</p>
+                        </div>
                         <h2 className="homepageRole">Front-End Developer</h2>
+                        
+                        <p className="homepageAbout">I'm a recent Informatics graduate from the University of Washington, specializing in front-end development with an interest in user experience design. Based in Seattle WA, I’m passionate about turning ideas into functional, visually appealing interfaces.</p>
                     </div>
-                    
-                    <p className="homepageAbout">I'm a recent Informatics graduate from the University of Washington, specializing in front-end development with an interest in user experience design. Based in Seattle WA, I’m passionate about turning ideas into functional, visually appealing interfaces.</p>
-                    <div className="text-center mt-5 pt-md-5">
-                        <a href="#projects" className="checkout-link mt-md-5">Check out my work!</a>
+
+                    <div className="ms-auto">
+                        <div className="polaroid-outline flex-column align-items-center p-3" style={{ lineHeight: '1.2' }}>
+                            <img src="/img/homepagePhoto.png" width={250} className="polaroid-photo"/>
+                            <h5 className="align-self-start pt-3 pb-1" style={{color: "#37383e"}}>Alexia Chan</h5>
+                            <div className="d-flex gap-2 align-self-start" >
+                                <span className="material-symbols-outlined" style={{ fontSize: '18px'}}>location_on</span>
+                                <p className="polaroid-text">Seattle, WA</p>
+                            </div>
+                            <div className="d-flex gap-2 align-self-start">
+                                <span className="material-symbols-outlined" style={{ fontSize: '18px'}}>mail</span>
+                                <p className="polaroid-text">alexiachan24@gmail.com</p>
+                            </div>
+                            <div className="d-flex gap-2 align-self-start">
+                                <span class="material-symbols-outlined" style={{ fontSize: '18px'}}>group_search</span>
+                                <a href="www.linkedin.com/in/alexiachan1" className="linkedinlink polaroid-text">LinkedIn</a>
+                            </div>
+                        </div>
                     </div>
+                </div>
+                <div className="text-center mt-4">
+                    <a href="#projects" className="checkout-link">Check out my work!</a>
                 </div>
 
                 <div id="projects" className="d-flex flex-wrap justify-content-center gap-5 m-5 homepageProjects">
@@ -55,15 +77,6 @@ export function Homepage() {
                             <img src="/img/dawgride.png" alt="DawgRide project mockup"/>
                             <div className="overlay">
                                 <span>DawgRide</span>
-                            </div>
-                        </div>
-                    </Link>
-
-                    <Link to="/smiski" className="imgBox">
-                        <div>
-                            <img src="/img/smiskiGrove.png" alt="Smiski Grove project mockup"/>
-                            <div className="overlay">
-                                <span>Smiski Grove</span>
                             </div>
                         </div>
                     </Link>

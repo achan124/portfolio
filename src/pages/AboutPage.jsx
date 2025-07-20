@@ -8,14 +8,14 @@ export function AboutPage() {
         <div>
             <Navbar />
             <div className="contentBody p-5">
-                <h1 style={{fontSize: 45}} className="text-center mb-5 pb-5">About me</h1>
+                <h1 style={{fontSize: 45}} className="text-center pt-3">About me</h1>
 
-                <div className="d-flex flex-column flex-lg-row justify-content-center gap-5 mb-5">
+                <div className="d-flex flex-column flex-lg-row justify-content-center gap-5 mt-5 py-3 px-5">
                     <div className="d-flex justify-content-center">
                         <img src="/img/gradPic.jpg" alt="picture of me" className="pb-5 selfie"></img>
                     </div>
                     <div className="d-flex flex-column">
-                        <p className="m-xl-5 about-text">Hi there! I'm Alexia Chan, a frontend developer passionate about crafting 
+                        <p className="about-text">Hi there! I'm Alexia Chan, a frontend developer passionate about crafting 
                             functional yet visually compelling digital experiences. Currently completing my Informatics 
                             degree at the University of Washington (Graduating June 2025), I've developed a strong 
                             foundation in development principles and user-centered design. I'm actively seeking opportunities to 
@@ -27,14 +27,13 @@ export function AboutPage() {
                             interfaces that balance functionality with thoughtful user experience. What excites me about development 
                             is that there's always something new to learn and problems to tackle.<br/><br/>
 
-                            Beyond coding, you can find me at a hot pilates class, exploring resturaunts in the Seattle area, 
-                            or serving boba and bánh mì at my family's cafe (Queen Càphê in Queen Anne!). 
+                            Beyond coding, you can find me at a hot pilates class, watching ducks at the park, or exploring resturaunts in the greater Seattle area. 
                         </p>
-                        <a href='/files/RESUME.pdf' target="_blank" className="mt-3 ms-xl-5 text-center resume-link">View my Resume</a>
+                        <a href='/files/RESUME.pdf' target="_blank" className="mt-3 resume-link">View my Resume</a>
                     </div>
                 </div>
 
-                <div className="m-xl-5 px-xl-5 pb-3">
+                <div className="px-xl-5 pb-3">
                     <h3 className="mb-4">What does 陳 mean?</h3>
                     <p>
                         It's my Chinese surname, <em>Chan</em>. I chose it for my logo because my family and culture are 
@@ -44,25 +43,14 @@ export function AboutPage() {
                     </p>
                 </div>
 
-                <div className="m-xl-5 px-xl-5 pb-5">
+                {/* <div className="m-xl-5 px-xl-5 pb-5">
                     <h3 className="mb-4">Hobbies & Other Interests</h3>
                     <div>
                         <div>
                             
                         </div>
                     </div>
-                </div>
-
-                {/* <div className="my-5">
-                    <h3 className="text-center mb-3">Recent eats</h3>
-                    <p className="text-center">
-                        I love eating. I also love looking back at yummy foods I've had. Here's a collection of 
-                        meals that I really enjoyed.<br/> Feel free to message me for recommendations!
-                    </p>
-                    <Carousel />
                 </div> */}
-
-
             </div>
             <Footer />
         </div>

@@ -16,8 +16,8 @@ ul {list-style: none;}
     background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 75px;
+    margin-bottom: 50px;
     margin-left: 2%; 
     margin-right: 2%; 
     min-height: 100vh;
@@ -38,7 +38,7 @@ ul {list-style: none;}
 }
 .nav-logo {
     color: #6F727C !important;
-    font-size: 32px !important;
+    font-size: 26px !important;
     padding-left: 20px;
     position: absolute;
     transform: translateY(-50%); 
@@ -88,7 +88,7 @@ ul {list-style: none;}
 }
 .navbar a:hover,
 .hamburger-menu a:hover {
-  color: #292c91;
+  color: #fc1ea7;
   transform: scale(1.05);
 }
 
@@ -99,18 +99,20 @@ h1 {
     font-family: "Rubik Mono One";
 }
 .homepageRole {
-    color: #292C91;
-    font-size: 30px;
+    color: #37383e;
+    font-size: 20px;
 }
 .homepageAbout-bold {
-    font-size: 30px;
+    font-size: 20px;
+    padding-top: 32px;
 }
 .homepageAbout {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 50px;
 }
 .homepageProjects {
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 .checkout-link,
 .form-submit,
@@ -118,7 +120,7 @@ h1 {
   font-family: "Rubik Mono One";
   text-decoration: none;
   color: white;
-  background-color: #292C91;             
+  background-color: #6F727C;             
   border: 3px solid rgba(255, 255, 255, 0.4); 
   border-radius: 15px;
   padding: 10px 20px;
@@ -130,7 +132,7 @@ h1 {
 .checkout-link:hover,
 .form-submit:hover,
 .resume-link:hover {
-  background-color: #5154C4;        
+  background-color: #fc1ea7;        
   transform: scale(1.05);
   box-shadow:
     0 0 6px rgba(255, 255, 255, 0.3),
@@ -141,6 +143,28 @@ h1 {
     font-family: "ZCOOL KuaiLe";
     font-size: 150px;
     margin-bottom: -30px;
+}
+.polaroid-outline {
+    display: none;
+    width: 283px;
+    height: 438px;
+    background-color: white;
+    border-radius: 37px;
+}
+.polaroid-photo {
+    border-radius: 30px;
+}
+.polaroid-text {
+    font-size: 14px;
+}
+.linkedinlink {
+    color: #6F727C;
+    text-align: start;
+    text-decoration: underline solid #6F727C;
+}
+.linkedinlink:hover {
+    color: #fc1ea7 !important;
+    text-decoration-color: #fc1ea7; 
 }
 
 /* !! projects !!  */
@@ -194,7 +218,7 @@ h1 {
 /* !! about me !! */
 .selfie {
     width: 350px;
-    height: auto; 
+    /* height: auto;  */
 }
 .about-text {
     max-width: 800px;
@@ -203,73 +227,19 @@ h1 {
     width: 250px;
 }
 
-
-/* !! food carousel !! */
-/* .carousel-container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 50px 60px;
-    position: relative;
-    height: 350px;
-}
-.swiper-slide {
-    display: flex;
-    justify-content: center;
-    align-self: center; 
-    height: 100%;
-}
-.carousel-image {
-    width: 100%; 
-    max-width: 200px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-.custom-prev, .custom-next {
-    width: 50px; 
-    height: 50px;
-    border-radius: 50%; 
-    position: absolute; 
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 10; 
-    cursor: pointer; 
-}
-.custom-prev {left: 0;}
-.custom-next {right: 0;}
-.custom-prev::after, .custom-next::after {
-    content: "";
-    display: block;
-    width: 20px; 
-    height: 20px; 
-    border-top: 3px solid #000000; 
-    border-left: 3px solid #000000; 
-    transform: rotate(-45deg); 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -10px; 
-    margin-left: -6px; 
-}
-.custom-next::after {
-    transform: rotate(135deg); 
-    margin-left: -20px; 
-} */
-
-
 /* !! contact form !! */
 .contact-header {
     font-family: "Rubik Mono One";
-    font-size: 25px;
+    font-size: 16px;
     font-weight: bold;
     margin: auto;
 }
 .contact-email {
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 600;
 }
 .form-label {
-    font-size: 20px;
+    font-size: 16px;
 }
 .required-asterisk {
     color: red;
@@ -279,7 +249,7 @@ h1 {
     padding: 10px 25px;
 }
 .form-control {
-    padding: 15px;
+    padding: 10px;
     font-size: 1rem;
     border: 1px solid #868686;
 }
@@ -300,30 +270,32 @@ h1 {
 /* !! media queries !! */
 @media (min-width: 992px) {
     h1 {
-        font-size: 80px; 
+        font-size: 60px; 
     }
     .contentBody {
         padding: 50px;
-        margin-top: 150px;
+        margin-top: 120px;
         margin-left: 10%; 
         margin-right: 10%; 
     }
     .homepageRole {
-        font-size: 50px;
+        font-size: 30px;
     }
     .homepageProjects{
         flex-direction: row;
-        padding-top: 150px;
-        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+    .polaroid-outline {
+        display: flex;
     }
     .contact-header {
-        font-size: 30px;
+        font-size: 24px;
     }
 }
 
 @media (min-width: 1200px) {
     .homepageAbout {
-        width: 700px;
+        width: 625px;
     }
     .ham-nav {
         display: none;
@@ -335,14 +307,15 @@ h1 {
     .reg-nav a {
         text-decoration: none;
         color: #6F727C; 
-        font-size: 18px;
+        font-size: 16px;
         font-weight: bold;
     }
     .homepageProjects{
         flex-direction: row;
-        padding-top: 200px;
-        padding-bottom: 250px;
     }
+    /* .homepageRole {
+        pa
+    } */
     .imgBox {
         max-width: 45%;
     }

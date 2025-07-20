@@ -19,7 +19,7 @@ export function QueenCaphe() {
                     <p className="tech-stack">HTML</p>
                     <p className="tech-stack">CSS</p>
                 </div>
-                <p><strong>Mar 2025 - July 2025</strong></p>
+                <p><strong>Mar 2025 - Present</strong></p>
                 <p>
                     Informational website for business built through WordPress Elementor. 
                     Integrated with Toast for online ordering.

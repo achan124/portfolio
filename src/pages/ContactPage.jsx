@@ -7,9 +7,8 @@ export function ContactPage() {
         <div>
             <Navbar />
             <div className="contentBody d-md-flex gap-5 justify-content-center">
-
                 <div className="contact-form-container mt-5 p-5">
-                    <h2 className="contact-header">Contact Me</h2>
+                    <h2 className="contact-header">Contact</h2>
                     <p className="form-label pt-3 mb-3 me-5">
                         Have a question? An open position? Want to give me feedback? Send an email!
                     </p>
@@ -37,7 +36,7 @@ export function ContactPage() {
                     </div>
                 </div>
 
-                <div className="contact-form-container mt-5 p-5" style={{backgroundColor: "white"}}>
+                <div className="contact-form-container p-5" style={{backgroundColor: "white"}}>
                     <ContactForm />
                 </div>
             </div>

@@ -49,7 +49,7 @@ export function ContactForm() {
                 <div>
                     <form ref={form} onSubmit={sendEmail} className='d-flex flex-column p-2 mt-4'>
 
-                        <label className='form-label pb-2 pt-2'>Name
+                        <label className='form-label pb-2'>Name
                             <span className="required-asterisk"> *</span>
                         </label>
                         <input 
