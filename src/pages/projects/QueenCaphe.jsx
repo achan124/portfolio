@@ -30,7 +30,7 @@ export function QueenCaphe() {
                         information, and used photos that were not up to her standards.
                     </p><br></br>
                     <h3>Previous Design</h3>
-                    <img src="/img/queencaphe/QCDesignAudit.png" width={750}></img>
+                    <img src="/img/queencaphe/QCDesignAudit.png" width={"100%"}></img>
                     <p>After talking with Valerie to understand her vision for the website, we came up with three core principles
                         to follow while redesigning:   
                     </p>
@@ -50,23 +50,15 @@ export function QueenCaphe() {
                 </div>
                 <div className="content-group">
                     <h2 style={{color: "#30569F"}}>Moodboard</h2>
-                    <img src="/img/queencaphe/moodboard.png" width={750} className="pt-5"></img>
+                    <img src="/img/queencaphe/moodboard.png" width={"100%"} className="pt-5"></img>
                 </div>
 
                 <div className="content-group">
                     <h2 style={{color: "#30569F"}}>Solution</h2>
-                    <img src="/img/queencaphe/solutionpic1.png" width={750} className="pt-5"></img>
-                    <img src="/img/queencaphe/solutionpic2.png" width={750} className="pt-3"></img>
-                    <img src="/img/queencaphe/solutionpic3.png" width={750} className="pt-3"></img>
-                    <img src="/img/queencaphe/solutionpic4.png" width={750} className="pt-3"></img>
-                    {/* <div className="mb-5 pb-5">
-                        <img src="/img/recipeasy/solution1.png" width={"900"} className="pb-3"/>
-                        <img src="/img/recipeasy/solution2.png" width={"900"} className="pb-3"/>
-                        <img src="/img/recipeasy/solution3.png" width={"900"}/>
-                        <img src="/img/recipeasy/solution4.png" width={"900"} className="pb-3"/>
-                        <img src="/img/recipeasy/solution5.png" width={"900"}/>
-                    </div> */}
-
+                    <img src="/img/queencaphe/solutionpic1.png" width={"100%"} className="pt-5"></img>
+                    <img src="/img/queencaphe/solutionpic2.png" width={"100%"} className="pt-3"></img>
+                    <img src="/img/queencaphe/solutionpic3.png" width={"100%"} className="pt-3"></img>
+                    <img src="/img/queencaphe/solutionpic4.png" width={"100%"} className="pt-3"></img>
                     <button onClick={() => window.open("https://queencaphe.com/", "_blank")} className="checkout-link mt-5 me-3 project-button">Website</button>
                 </div>
             </div>

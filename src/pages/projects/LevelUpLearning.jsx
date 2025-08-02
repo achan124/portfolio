@@ -202,7 +202,7 @@ export function LevelUpLearning() {
                     <h3 className="text-center">Demo Video</h3>
 
                     <div className="text-center">
-                        <iframe width="640" height="360" 
+                        <iframe width={"100%"} height="360" 
                             src="https://www.youtube.com/embed/TqJbbSPM1fo?si=wEjrEvT7Q0tulEK7" 
                             title="YouTube video player" 
                             frameborder="0" 
@@ -214,13 +214,13 @@ export function LevelUpLearning() {
 
                     <div className="mb-5 pb-5">
                         <h3 className="text-center mt-5">Reading</h3>
-                        <img src="/img/leveluplearning/solution1.png" width={"750"} className="pb-3"/>
+                        <img src="/img/leveluplearning/solution1.png" width={"100%"} className="pb-3"/>
                         <h3 className="text-center pt-5">Quiz</h3>
-                        <img src="/img/leveluplearning/solution2.png" width={"750"} className="pb-3"/>
+                        <img src="/img/leveluplearning/solution2.png" width={"100%"} className="pb-3"/>
                         <h3 className="text-center pt-5">Character Building</h3>
-                        <img src="/img/leveluplearning/solution3.png" width={"750"}/>
+                        <img src="/img/leveluplearning/solution3.png" width={"100%"}/>
                         <h3 className="text-center pt-5">Games</h3>
-                        <img src="/img/leveluplearning/solution4.png" width={"750"} className="pb-3"/>
+                        <img src="/img/leveluplearning/solution4.png" width={"100%"} className="pb-3"/>
                     </div>
 
                     <button onClick={() => window.open("https://capstonecades4.vercel.app/", "_blank")} className="checkout-link mt-5 me-3 project-button">Website</button>
