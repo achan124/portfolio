@@ -10,7 +10,7 @@ export function Homepage() {
             <div className="contentBody">
                 <div className="d-flex p-5">
                     <div className="py-md-2">
-                        <p className="homepageAbout-bold">Hi, my name is</p>
+                        <p className="homepageAbout-bold">Hi 👋 my name is</p>
                         
                         <div className="d-xl-flex gap-5">
                             <h1>Alexia</h1>
