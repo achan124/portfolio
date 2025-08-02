@@ -214,13 +214,13 @@ export function LevelUpLearning() {
 
                     <div className="mb-5 pb-5">
                         <h3 className="text-center mt-5">Reading</h3>
-                        <img src="/img/leveluplearning/solution1.png" width={"900"} className="pb-3"/>
+                        <img src="/img/leveluplearning/solution1.png" width={"750"} className="pb-3"/>
                         <h3 className="text-center pt-5">Quiz</h3>
-                        <img src="/img/leveluplearning/solution2.png" width={"900"} className="pb-3"/>
+                        <img src="/img/leveluplearning/solution2.png" width={"750"} className="pb-3"/>
                         <h3 className="text-center pt-5">Character Building</h3>
-                        <img src="/img/leveluplearning/solution3.png" width={"900"}/>
+                        <img src="/img/leveluplearning/solution3.png" width={"750"}/>
                         <h3 className="text-center pt-5">Games</h3>
-                        <img src="/img/leveluplearning/solution4.png" width={"900"} className="pb-3"/>
+                        <img src="/img/leveluplearning/solution4.png" width={"750"} className="pb-3"/>
                     </div>
 
                     <button onClick={() => window.open("https://capstonecades4.vercel.app/", "_blank")} className="checkout-link mt-5 me-3 project-button">Website</button>

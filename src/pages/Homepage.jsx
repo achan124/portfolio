@@ -35,7 +35,7 @@ export function Homepage() {
                             </div>
                             <div className="d-flex gap-2 align-self-start">
                                 <span class="material-symbols-outlined" style={{ fontSize: '18px'}}>group_search</span>
-                                <a href="www.linkedin.com/in/alexiachan1" className="linkedinlink polaroid-text">LinkedIn</a>
+                                <a href="https://www.linkedin.com/in/alexiachan1" target="_blank" className="linkedinlink polaroid-text">LinkedIn</a>
                             </div>
                         </div>
                     </div>
