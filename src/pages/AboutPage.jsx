@@ -15,25 +15,25 @@ export function AboutPage() {
                         <img src="/img/gradPic.jpg" alt="picture of me" className="pb-5 selfie"></img>
                     </div>
                     <div className="d-flex flex-column">
-                        <p className="about-text">Hi there! I'm Alexia Chan, a frontend developer passionate about crafting 
-                            functional yet visually compelling digital experiences. Currently completing my Informatics 
-                            degree at the University of Washington (Graduating June 2025), I've developed a strong 
-                            foundation in development principles and user-centered design. I'm actively seeking opportunities to 
-                            expand my skill set while contributing meaningful solutions to both existing systems and 
-                            innovative applications.<br/><br/>
+                        <p className="about-text">Hi there! I'm Alexia Chan, a data analyst passionate about using complex data to 
+                            find meaning and answer analytical questions. As a recent Informatics graduate from the University 
+                            of Washington, I have built a strong foundation in data analysis, visualization, and problem-solving.
+                            I am excited to apply my skills to solve complex problems that have real-world impact.<br></br><br></br>
 
-                            My technical toolkit includes core web technologies (HTML, CSS, JavaScript) along with modern frameworks 
-                            like React and design tools such as Figma. This combination allows me to build responsive, interactive 
-                            interfaces that balance functionality with thoughtful user experience. What excites me about development 
-                            is that there's always something new to learn and problems to tackle.<br/><br/>
+                            My technical toolkit includes SQL and Excel for querying and managing data, along with visualization tools such as 
+                            Tableau and Power BI. With additional experience in front-end development (HTML, CSS, JavaScript), I bring 
+                            a unique perspective at the intersection of data and development, bridging technical insights with accessible,
+                            visually compelling presentations. What excites me about analytics is the ability to transform raw data into 
+                            actionable insights. <br></br><br></br>
 
-                            Beyond coding, you can find me at a hot pilates class, watching ducks at the park, or exploring resturaunts in the greater Seattle area. 
+                            Beyond school or work, you can find me at a hot pilates class, watching ducks at the park, or exploring resturaunts 
+                            in the greater Seattle area.
                         </p>
                         <a href='/files/RESUME.pdf' target="_blank" className="mt-3 resume-link">View my Resume</a>
                     </div>
                 </div>
 
-                <div className="px-xl-5 pb-3">
+                {/* <div className="px-xl-5 pb-3">
                     <h3 className="mb-4">What does 陳 mean?</h3>
                     <p>
                         It's my Chinese surname, <em>Chan</em>. I chose it for my logo because my family and culture are 
@@ -41,7 +41,7 @@ export function AboutPage() {
                         for. I want my projects to feel personal - a mix of my background with all the new things I've learned.
                         This character reminds me to bring pieces of my heritage into the things that I create.         
                     </p>
-                </div>
+                </div> */}
 
                 {/* <div className="m-xl-5 px-xl-5 pb-5">
                     <h3 className="mb-4">Hobbies & Other Interests</h3>
