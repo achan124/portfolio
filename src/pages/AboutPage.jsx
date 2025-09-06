@@ -14,7 +14,7 @@ export function AboutPage() {
                     <div className="d-flex justify-content-center">
                         <img src="/img/gradPic.jpg" alt="picture of me" className="pb-5 selfie"></img>
                     </div>
-                    <div className="d-flex flex-column">
+                    {/* <div className="d-flex flex-column">
                         <p className="about-text">Hi there! I'm Alexia Chan, a data analyst passionate about using complex data to 
                             find meaning and answer analytical questions. As a recent Informatics graduate from the University 
                             of Washington, I have built a strong foundation in data analysis, visualization, and problem-solving.
@@ -30,6 +30,23 @@ export function AboutPage() {
                             in the greater Seattle area.
                         </p>
                         <a href='/files/RESUME.pdf' target="_blank" className="mt-3 resume-link">View my Resume</a>
+                    </div> */}
+                    <div className="d-flex flex-column">
+                        <p className="about-text">Hi there! I'm Alexia Chan, a frontend developer passionate about crafting 
+                            functional yet visually compelling digital experiences. Currently completing my Informatics 
+                            degree at the University of Washington (Graduating June 2025), I've developed a strong 
+                            foundation in development principles and user-centered design. I'm actively seeking opportunities to 
+                            expand my skill set while contributing meaningful solutions to both existing systems and 
+                            innovative applications.<br/><br/>
+
+                            My technical toolkit includes core web technologies (HTML, CSS, JavaScript) along with modern frameworks 
+                            like React and design tools such as Figma. This combination allows me to build responsive, interactive 
+                            interfaces that balance functionality with thoughtful user experience. What excites me about development 
+                            is that there's always something new to learn and problems to tackle.<br/><br/>
+
+                            Beyond coding, you can find me at a hot pilates class, watching ducks at the park, or exploring resturaunts in the greater Seattle area. 
+                        </p>
+                        <a href='/files/resumeSD.pdf' target="_blank" className="mt-3 resume-link">View my Resume</a>
                     </div>
                 </div>
 
