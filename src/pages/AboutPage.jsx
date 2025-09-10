@@ -46,7 +46,7 @@ export function AboutPage() {
 
                             Beyond coding, you can find me at a hot pilates class, watching ducks at the park, or exploring resturaunts in the greater Seattle area. 
                         </p>
-                        <a href='/files/resumeSD.pdf' target="_blank" className="mt-3 resume-link">View my Resume</a>
+                        <a href='/files/RESUME.pdf' target="_blank" className="mt-3 resume-link">View my Resume</a>
                     </div>
                 </div>
 
