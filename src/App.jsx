@@ -12,6 +12,7 @@ import { SmiskiGrove } from "./pages/projects/SmiskiGrove";
 import { Recipeasy } from "./pages/projects/RecipEASY";
 import { LevelUpLearning } from "./pages/projects/LevelUpLearning";
 import { QueenCaphe } from "./pages/projects/QueenCaphe";
+import { MarketingAnalysis } from "./pages/projects/MarketingDataAnalysis" 
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
         <Route path="/recipeasy" element={<Recipeasy />} />
         <Route path="/leveluplearning" element={<LevelUpLearning />} />
         <Route path="/queencaphe" element={<QueenCaphe />} />
+        <Route path="/marketinganalysis" element={<MarketingAnalysis />} />
       </Routes>
     </BrowserRouter>
   )

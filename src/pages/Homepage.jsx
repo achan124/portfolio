@@ -16,10 +16,10 @@ export function Homepage() {
                             <h1>Alexia</h1>
                             <p className="homepageAbout-bold">and I am a...</p>
                         </div>
-                        <h2 className="homepageRole">Front-End Developer</h2>
+                        <h2 className="homepageRole">Data Analyst</h2>
                         
-                        {/* <p className="homepageAbout">I recently graduated from the University of Washington with a B.S. in Informatics, specializing in data science. My passion lies in turning complex datasets into clear, actionable insights that help drive smarter decisions. I’ve developed strong skills in data analysis, visualization, and problem-solving, and I’m excited to apply these skills in impactful, real-world settings.</p> */}
-                        <p className="homepageAbout">I'm a recent Informatics graduate from the University of Washington, specializing in front-end development with an interest in user experience design. Based in Seattle WA, I’m passionate about turning ideas into functional, visually appealing interfaces.</p>
+                        <p className="homepageAbout">I recently graduated from the University of Washington with a B.S. in Informatics, specializing in data science. My passion lies in turning complex datasets into clear, actionable insights that help drive smarter decisions. I’ve developed strong skills in data analysis, visualization, and problem-solving, and I’m excited to apply these skills in impactful, real-world settings.</p>
+                        {/* <p className="homepageAbout">I'm a recent Informatics graduate from the University of Washington, specializing in front-end development with an interest in user experience design. Based in Seattle WA, I’m passionate about turning ideas into functional, visually appealing interfaces.</p> */}
                     </div>
 
                     <div className="ms-auto">
@@ -47,6 +47,15 @@ export function Homepage() {
                 </div>
 
                 <div id="projects" className="d-flex flex-wrap justify-content-center gap-5 m-5 homepageProjects">
+                    <Link to="/marketinganalysis" className="imgBox">
+                        <div>
+                            <img src="/img/marketingAnalysis.png" alt="marketing analysis dashboard"/>
+                            <div className="overlay">
+                                <span>Analyzing Marketing Data for an E-Commerce Company</span>
+                            </div>
+                        </div>
+                    </Link>
+                    
                     <Link to="/queencaphe" className="imgBox">
                         <div>
                             <img src="/img/queenCaphe.png" alt="queen caphe project mockup"/>
@@ -70,15 +79,6 @@ export function Homepage() {
                             <img src="/img/recipEASY.png" alt="recipeasy project mockup"/>
                             <div className="overlay">
                                 <span>recipEASY</span>
-                            </div>
-                        </div>
-                    </Link>
-
-                    <Link to="/dawgride" className="imgBox">
-                        <div>
-                            <img src="/img/dawgride.png" alt="DawgRide project mockup"/>
-                            <div className="overlay">
-                                <span>DawgRide</span>
                             </div>
                         </div>
                     </Link>

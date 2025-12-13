@@ -11,6 +11,15 @@ export function ProjectPage() {
                 <h1 style={{fontSize: 45}} className="text-center pt-3">My Projects</h1>
 
                 <div className="d-flex flex-wrap justify-content-center gap-5 m-5 pt-5">
+                    <Link to="/marketinganalysis" className="imgBox">
+                        <div>
+                            <img src="/img/marketingAnalysis.png" alt="marketing analysis dashboard"/>
+                            <div className="overlay">
+                                <span>Analyzing Marketing Data for an E-Commerce Company</span>
+                            </div>
+                        </div>
+                    </Link>
+
                     <Link to="/queencaphe" className="imgBox">
                         <div>
                             <img src="/img/queenCaphe.png" alt="queen caphe project mockup"/>
